@@ -1,0 +1,6 @@
+transformers
+gradio
+peft
+torch
+neo4j
+bitsandbytes
