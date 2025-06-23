@@ -86,5 +86,7 @@ python gradio_app.py
 ```
 
 # Hardware Requirements
-LLM inference and training steps (CQP fine-tuning, prediction using LLMs, KVE prompting and Gradio App) require:
+LLM inference and training steps (CQP fine-tuning, inference on LLMs, KVE prompting) require:
 - CUDA-compatible GPU (min. 20 GB VRAM recommended)
+  
+The Gradio App assumes two CUDA-compatible GPUs of that size (one for the base model, one for the fine-tuned model).
