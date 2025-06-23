@@ -13,7 +13,7 @@ bnb_config = BitsAndBytesConfig(
     load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.bfloat16
 )
 
-#specify the path to the folder that contains the LoRA weights, in this case the one of the 7B variant
+#specify the path to the folder that contains the LoRA weights
 model = AutoPeftModelForCausalLM.from_pretrained("path_to_lora_adapter", quantization_config=bnb_config)
                                      
 tokenizer = AutoTokenizer.from_pretrained(model_id, token=os.environ['HF_TOKEN'])
@@ -28,8 +28,8 @@ def truncate_string(input_string):
 # Split the string on the last word of the input prompt
 split_word = "effectively."
 
-#retrieve validation set
-validation_dataset = pd.read_csv("CL_unsupported.csv", delimiter=',')
+#retrieve validation set - replace the file path
+validation_dataset = pd.read_csv("path_to_validation_set.csv", delimiter=',')
 
 #define data frame that will later contain the predicted query, can be used for evaluation later
 df = pd.DataFrame(columns=['NL input', 'Key Values', 'Predicted Query'])
