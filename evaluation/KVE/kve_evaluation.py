@@ -41,8 +41,8 @@ def compute_precision_recall(gt, pred):
 def evaluate_key_extraction(ground_truth_file, predictions_file, output_file):
     """Evaluates key value extraction performance and writes the results to a CSV file."""
     # Load CSV files
-    gt_df = pd.read_csv(ground_truth_file, sep=',', encoding='utf-8')
-    pred_df = pd.read_csv(predictions_file, sep=',', encoding='utf-8')
+    gt_df = pd.read_csv(ground_truth_file, sep=',', encoding='utf-8-sig')
+    pred_df = pd.read_csv(predictions_file, sep=',', encoding='utf-8-sig')
     
     results = []
     cumulative_true_positives = 0
@@ -88,7 +88,7 @@ def evaluate_key_extraction(ground_truth_file, predictions_file, output_file):
     print(f"Overall Recall: {overall_recall:.4f}")
 
 
-# Example usage
+# Usage: As input, we require a ground truth file which follows the same schema as the validation sets, and a predictions file. This should look like the example_kve_predictions.csv file.
 gt_file = 'path_to_ground_truth_file.csv' # Replace with your file path
 predictions_file = 'path_to_predictions_file.csv' # Replace with your file path
 results_file = 'path_to_results_file.csv' # Replace with your file path

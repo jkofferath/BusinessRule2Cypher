@@ -7,7 +7,7 @@ import pandas as pd
 
 os.environ["HF_TOKEN"] = "YOUR_HF_TOKEN"
 
-#specify the model id of the base model, in this case Mistral's 7B vairant
+#specify the model id of the base model, in this case Mistral's 7B variant
 model_id = "mistralai/Mistral-7B-Instruct-v0.3"
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.bfloat16
@@ -69,4 +69,4 @@ for index, row in validation_dataset.iterrows():
     df = df._append(new_entry, ignore_index=True)
     
 #Convert the data frame into a csv file and store it. Use it for evaluation.
-df.to_csv('path_to_your_predictions_file.csv', sep=',', index=False)
+df.to_csv('path_to_your_predictions_file.csv', sep=',', index=False) #replace the file path

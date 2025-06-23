@@ -1,0 +1,1434 @@
+NL input;Predicted Key Values
+A user may not modify an order’s quantity more than 5 times.;"	Activity: [""Change Quantity""], EntityType: [""PO""], Actor: []
+		"
+The same person must not create more than 4 purchase order item.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+The same employee cannot acknowledge the receipt of goods more than 10 times.;"	Activity: [], EntityType: [], Actor: []
+		"
+The same person cannot confirm an order more than 7 times.;"	Activity: [""Create Order""], EntityType: [], Actor: []
+		"
+No single resource should finalize more than 5 service entry sheets.;"	Activity: [], EntityType: [], Actor: []
+		"
+"An actor must not perform the ""Create Purchase Requisition Item"" activity more than 5 times.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"The same resource cannot execute ""Create Purchase Order Item"" more than 3 times.";"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"A user may not log ""Record Goods Receipt"" more than 8 times.";"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"The same person should not complete ""Record Invoice Receipt"" more than 2 times.";"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"The same individual must not carry out ""Clear Invoice"" more than 6 times.";"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+A task performed by user_429 must be immediately followed by an action from user_407 no more than 5 times.;"	Activity: [], EntityType: [], Actor: [""user_429"", ""user_407""]
+		"
+The person identified as user_258 must transfer work to user_235 at least 7 times.;"	Activity: [], EntityType: [], Actor: [""user_258"", ""user_235""]
+		"
+Work assigned to user_068 must be handed over to user_059 a minimum of 6 times.;"	Activity: [], EntityType: [], Actor: [""user_068"", ""user_059""]
+		"
+An event executed by user_031 should not be immediately succeeded by an event performed by user_007 more than 3 times.;"	Activity: [], EntityType: [], Actor: [""user_031"", ""user_007""]
+		"
+The individual referred to as user_002 is required to transfer tasks to batch_10 at least 4 times.;"	Activity: [], EntityType: [], Actor: [""user_002"", ""batch_10""]
+		"
+It is required that a task completed by batch_06 is followed by an event from user_013 at most 2 times.;"	Activity: [], EntityType: [], Actor: [""batch_06"", ""user_013""]
+		"
+Whenever user_105 completes an action, user_077 must take over at least 9 times.;"	Activity: [], EntityType: [], Actor: [""user_105"", ""user_077""]
+		"
+The task of user_020 must be directly succeeded by an action from user_085 at least 3 times.;"	Activity: [], EntityType: [], Actor: [""user_020"", ""user_085""]
+		"
+Actions executed by user_087 should precede those performed by user_012 a minimum of 8 times.;"	Activity: [], EntityType: [], Actor: [""user_087"", ""user_012""]
+		"
+user_429 must not immediately transfer work to user_407.;"	Activity: [], EntityType: [], Actor: [""user_429"", ""user_407""]
+		"
+There should be no instances where batch_10 hands over work to user_059.;"	Activity: [], EntityType: [], Actor: [""batch_10"", ""user_059""]
+		"
+user_258 is prohibited from handing over work to user_204.;"	Activity: [], EntityType: [], Actor: [""user_258"", ""user_204""]
+		"
+It is required that no task performed by user_235 is directly followed by a task performed by user_006.;"	Activity: [], EntityType: [], Actor: [""user_235"", ""user_006""]
+		"
+user_068 must refrain from passing work to user_033.;"	Activity: [], EntityType: [], Actor: [""user_068"", ""user_033""]
+		"
+No instances are allowed where user_059 performs an event directly followed by user_204 performing another event.;"	Activity: [], EntityType: [], Actor: [""user_059"", ""user_204""]
+		"
+user_012 is prohibited from handing over work to batch_16.;"	Activity: [], EntityType: [], Actor: [""user_012"", ""batch_16""]
+		"
+It is prohibited for user_105 to transfer work to user_044.;"	Activity: [], EntityType: [], Actor: [""user_105"", ""user_044""]
+		"
+There should be no instances where batch_03 hands over work to user_019.;"	Activity: [], EntityType: [], Actor: [""batch_03"", ""user_019""]
+		"
+user_424 is not allowed to immediately transfer work to user_034.;"	Activity: [], EntityType: [], Actor: [""user_424"", ""user_034""]
+		"
+User_429 and User_407 must not perform the same activity.;"	Activity: [], EntityType: [], Actor: [""user_429"", ""user_407""]
+		"
+User_258 and User_235 must not perform overlapping tasks.;"	Activity: [], EntityType: [], Actor: [""user_258"", ""user_235""]
+		"
+User_068 and User_059 must never engage in the same activities.;"	Activity: [], EntityType: [], Actor: [""user_068"", ""user_059""]
+		"
+There should be no overlap between the activities of User_031 and User_007.;"	Activity: [], EntityType: [], Actor: [""user_031"", ""user_007""]
+		"
+User_002 and User_013 must not share any activities.;"	Activity: [], EntityType: [], Actor: [""user_002"", ""user_013""]
+		"
+User_105 and User_077 should not perform overlapping tasks.;"	Activity: [], EntityType: [], Actor: [""user_077"", ""user_105""]
+		"
+User_204 and User_188 must perform different activities.;"	Activity: [], EntityType: [], Actor: [""user_204"", ""user_188""]
+		"
+User_020 and User_085 must work on completely distinct tasks.;"	Activity: [], EntityType: [], Actor: [""user_020"", ""user_085""]
+		"
+Tasks performed by user_429 and user_407 must be identical.;"	Activity: [], EntityType: [], Actor: [""user_429"", ""user_407""]
+		"
+Every activity performed by user_258 should also be handled by user_235.;"	Activity: [], EntityType: [], Actor: [""user_258"", ""user_235""]
+		"
+User_068 and user_059 must share the same tasks.;"	Activity: [], EntityType: [], Actor: [""user_068"", ""user_059""]
+		"
+Tasks performed by the users with IDs user_031, user_007, and user_002 must overlap completely.;"	Activity: [], EntityType: [], Actor: [""user_031"", ""user_007"", ""user_002""]
+		"
+The batch with ID batch_10 must perform the same activities as batch_06.;"	Activity: [], EntityType: [], Actor: [""batch_10"", ""batch_06""]
+		"
+Users user_013 and user_105 must have identical roles and tasks.;"	Activity: [], EntityType: [], Actor: [""user_013"", ""user_105""]
+		"
+Any task performed by user_077 must also be handled by user_204, and vice versa.;"	Activity: [], EntityType: [], Actor: [""user_077"", ""user_204""]
+		"
+Activities performed by user_188 must also be performed by user_020.;"	Activity: [], EntityType: [], Actor: [""user_188"", ""user_020""]
+		"
+The tasks performed by user_085 must match those of user_087.;"	Activity: [], EntityType: [], Actor: [""user_085"", ""user_087""]
+		"
+The users user_012 and user_274 should perform identical tasks, with no discrepancies.;"	Activity: [], EntityType: [], Actor: [""user_012"", ""user_274""]
+		"
+User 429 is only allowed to perform actions related to Purchase Orders.;"	Activity: [], EntityType: [""PO""], Actor: [""user_429""]
+		"
+Only user 407 can manage Purchase Order Items.;"	Activity: [], EntityType: [""POI""], Actor: [""user_407""]
+		"
+Tasks performed by user 258 should exclusively be related to Purchase Orders.;"	Activity: [], EntityType: [""PO""], Actor: [""user_258""]
+		"
+Only Purchase Order Items can be processed by user 235.;"	Activity: [], EntityType: [""POI""], Actor: [""user_235""]
+		"
+Batch 10 is restricted to processing only Purchase Orders.;"	Activity: [], EntityType: [""PO""], Actor: [""batch_10""]
+		"
+User 059 is required to work exclusively with Purchase Order Items.;"	Activity: [], EntityType: [""POI""], Actor: [""user_059""]
+		"
+Batch 16 is restricted to actions involving Purchase Order Items only.;"	Activity: [], EntityType: [""POI""], Actor: [""batch_16""]
+		"
+User 034 must strictly perform tasks related to Purchase Orders.;"	Activity: [], EntityType: [""PO""], Actor: [""user_034""]
+		"
+At least 3 employees must be involved in handling every Purchase Order Item.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+No more than 5 workers may be involved in processing a Purchase Order (PO).;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+A minimum of 4 distinct contributors must handle each Purchase Order Item (POI).;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+No single Purchase Order can have more than 4 workers assigned to it.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+Every POI must have at least 2 unique participants.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+Each Purchase Order must have exactly 3 distinct participants involved.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+No Purchase Order Item can have fewer than 3 participants.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+No more than 2 distinct workers can be involved in processing each Purchase Order Item.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+A maximum of 5 unique workers should be assigned to a Purchase Order.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+Every Purchase Order Item must have at least 4 distinct contributors handling it.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+A user must not create more than 3 Purchase Requisition Items within 7 days.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+No actor is allowed to create more than 5 Purchase Order Items in a single day.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A vendor must not create more than 2 invoices per day.;"	Activity: [""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+A user is not allowed to delete more than 1 purchase Order Item in a single day.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+A goods receipt event must not be recorded more than once by the same user within 3 days.;"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+The same user should not record more than 2 Invoice Receipts within a 7-day period.;"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+A user may not change the quantity more than once within 2 days.;"	Activity: [""Change Quantity""], EntityType: [], Actor: []
+		"
+An actor must not remove more than 3 payment blocks in a 5-day window.;"	Activity: [""Remove Payment Block""], EntityType: [], Actor: []
+		"
+A worker may not create more than 4 Service Entry Sheets in a single week.;"	Activity: [""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+Within a period of 30 days, no actor is allowed to receive more than 10 Order Confirmations.;"	Activity: [], EntityType: [], Actor: []
+		"
+A user must not create more than 5 purchase requisition items between January 1st 2023 and January 10th 2023.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+No employee may record more than 3 goods receipts in a single month between February 1st 2023 and February 28th 2023.;"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+A vendor can only create one invoice between March 1st 2023 at 10:00 AM and March 2nd 2023 at 10:00 AM.;"	Activity: [""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+No user can delete more than 2 purchase order items within a 24-hour period from July 1st 2023 12:00 PM to July 2nd 2023 12:00 PM.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+A user is not allowed to create more than 3 purchase order items between May 1st 2023 and May 15th 2023.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+An employee cannot record more than 2 invoice receipts between June 1st 2023 at 8:00 AM and June 1st 2023 at 5:00 PM.;"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+A user may not clear more than 5 invoices between August 1st 2023 at 10:00 AM and August 1st 2023 at 10:00 PM.;"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+A person is not allowed to modify the quantity more than 3 times between October 1st 2023 at 9:00 AM and October 3rd 2023 at 5:00 PM.;"	Activity: [""Change Quantity""], EntityType: [], Actor: []
+		"
+A user must not remove the payment block more than once between April 1st 2023 and April 7th 2023.;"	Activity: [""Remove Payment Block""], EntityType: [], Actor: []
+		"
+A person may not receive more than 5 order confirmations between September 1st 2023 at 9:00 AM and September 5th 2023 at 5:00 PM.;"	Activity: [""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+The same employee must not create a purchase requisition item and create a purchase order item.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A single person is prohibited from recording both goods receipt and invoice receipt.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+An employee should not both remove a payment block and approve an invoice by recording its receipt.;"	Activity: [""Remove Payment Block"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+No employee is allowed to both receive order confirmation and delete purchase order items.;"	Activity: [""Receive Order Confirmation"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+A person must not both record a service entry and modify order quantities.;"	Activity: [""Record Service Entry Sheet"", ""Change Quantity""], EntityType: [], Actor: []
+		"
+"An employee must not perform both ""Create Purchase Requisition Item"" and ""Create Purchase Order Item"" activities.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"No individual is allowed to execute both ""Vendor creates invoice"" and ""Clear Invoice"".";"	Activity: [""Vendor creates invoice"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"No employee should perform both ""Delete Purchase Order Item"" and ""Record Service Entry Sheet"".";"	Activity: [""Delete Purchase Order Item"", ""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+"A single individual must not be responsible for both ""Change Quantity"" and ""Record Goods Receipt"".";"	Activity: [""Change Quantity"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"No person may execute both ""Receive Order Confirmation"" and ""Delete Purchase Order Item"".";"	Activity: [""Receive Order Confirmation"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+It is prohibited for a single actor to initiate an order, approve a receipt, and clear an invoice.;"	Activity: [""Create Purchase Requisition Item"", ""Record Goods Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+No employee should have control over all three: submitting an invoice, recording an invoice receipt, and clearing an invoice.;"	Activity: [""Vendor creates invoice"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"No actor should perform all three actions: ""Create Purchase Order Item"", ""Record Goods Receipt"", and ""Clear Invoice"".";"	Activity: [""Create Purchase Order Item"", ""Record Goods Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"The same person cannot be responsible for ""Receive Order Confirmation"", ""Change Quantity"", and ""Delete Purchase Order Item"".";"	Activity: [""Receive Order Confirmation"", ""Change Quantity"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"No one should manage all of these: ""Vendor creates invoice"", ""Record Invoice Receipt"", and ""Clear Invoice"".";"	Activity: [""Vendor creates invoice"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+No single person should be in charge of documenting received goods, logging invoice receipts, and clearing payments.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+The same individual must not be responsible for deleting purchase order items, changing item quantities, and confirming orders.;"	Activity: [""Delete Purchase Order Item"", ""Change Quantity"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"The same actor must not be assigned to ""Record Goods Receipt"", ""Record Service Entry Sheet"", and ""Receive Order Confirmation"".";"	Activity: [""Record Goods Receipt"", ""Record Service Entry Sheet"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"No person should perform each of the following tasks: ""Delete Purchase Order Item"", ""Change Quantity"", and ""Remove Payment Block"" .";"	Activity: [""Delete Purchase Order Item"", ""Change Quantity"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+No single actor should complete all steps for a single purchase order.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+A purchase order item must not be fully processed by a single individual.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+The entire set of tasks for any PO must not be executed by one person.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+No person should be responsible for all actions related to a single purchase order item.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+The full sequence of events for a PO must not be completed by only one actor.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+It is required that multiple actors participate in the processing of each purchase order item.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+The handling of a purchase order item must involve more than one individual.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+It is mandatory that no actor completes all events for an object of entity type PO.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+It is prohibited for one individual to execute all tasks within any process instance of entity type POI.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+For any object of type PO, a single resource must not execute all tasks.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+The full set of activities in any process instance of entity type POI must not be carried out by a single person.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+All activities related to purchase requisition item creation, purchase order item creation, and invoice creation must be executed by one person.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+A single individual should handle recording goods and invoice receipts. No one else may participate.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+Only one designated actor is allowed to delete purchase order items and clear invoices.;"	Activity: [""Delete Purchase Order Item"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+One actor alone is tasked with confirming orders and making any necessary quantity adjustments.;"	Activity: [""Remove Payment Block"", ""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Record Goods Receipt"", ""Vendor creates invoice"", ""Change Quantity"", ""Record Invoice Receipt"", ""Release Purchase Requisition"", ""Change Price"", ""Receive Order Confirmation"", ""Clear Invoice"", ""Delete Purchase Order Item"", ""Change Delivery Indicator"", ""Cancel Goods Receipt"", ""Record Service Entry Sheet"", ""SRM: Created"", ""SRM: Awaiting Appro"
+Exactly one person should be responsible for creating invoices and confirming orders.;"	Activity: [""Create Invoice"", ""Confirm Order""], EntityType: [], Actor: []
+		"
+The full set of actions involving purchase order item management, i.e.  creation to deletion, must be executed by a single individual.;"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+No one other than an assigned individual may handle quantity changes and service entry recordings.;"	Activity: [""Change Quantity"", ""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+"The activities ""Create Purchase Requisition Item"" and ""Create Purchase Order Item"" must be performed by a single actor.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"Only one individual may perform the ""Vendor creates invoice"" and ""Record Goods Receipt"" activities.";"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"Only one individual is allowed to handle both ""Change Quantity"" and ""Receive Order Confirmation"" tasks.";"	Activity: [""Change Quantity"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"The full set of activities, including ""Create Purchase Requisition Item"", ""Create Purchase Order Item"", and ""Vendor creates invoice"", must be performed by the same individual.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+A single actor must handle the creation and deletion of purchase order items for all purchase orders.;"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [""PO""], Actor: []
+		"
+Exactly one person should record goods receipt and invoice receipt for the entirety of purchase order items.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+A single actor should be responsible for both clearing invoice and removing the payment block for all purchase order items.;"	Activity: [""Clear Invoice"", ""Remove Payment Block""], EntityType: [""POI""], Actor: []
+		"
+One individual must be responsible for both creating a purchase order item and changing its quantity for all existent purchase orders.;"	Activity: [""Create Purchase Order Item"", ""Change Quantity""], EntityType: [""POI""], Actor: []
+		"
+A specific person must be responsible for the creation of purchase order items and removal of a payment block across all purchase orders.;"	Activity: [""Create Purchase Order Item"", ""Remove Payment Block""], EntityType: [""PO""], Actor: []
+		"
+"Exactly one person must handle the activity ""Create Purchase Order Item"" and ""Delete Purchase Order Item"" for all objects of type ""PO"".";"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [""PO""], Actor: []
+		"
+"A single actor is required to create a ""Purchase Requisition Item"" and create the corresponding ""Purchase Order Item"" for all ""POI"" entities.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+"One person must be responsible for both recording the ""Goods Receipt"" and the ""Invoice Receipt"" for any ""POI"".";"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+"A single actor must both create a ""Purchase Order Item"" and remove its ""Payment Block"" for all ""POI"" entities.";"	Activity: [""Create Purchase Requisition Item"", ""Remove Payment Block""], EntityType: [""POI""], Actor: []
+		"
+Every Purchase Order Item must be created at least once.;"	Activity: [""Create Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+At least one invoice must be created for every Purchase Order Item.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [""POI""], Actor: []
+		"
+Every Purchase Order Item (POI) must be linked to a recording a service entry sheet.;"	Activity: [""Record Service Entry Sheet""], EntityType: [""POI""], Actor: []
+		"
+"Every ""Purchase Order"" must have at least one ""Create Purchase Order Item"" event.";"	Activity: [""Create Purchase Order Item""], EntityType: [""PO""], Actor: []
+		"
+"A ""Purchase Order Item"" should have at least one ""Record Goods Receipt"" event associated with it.";"	Activity: [""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+"Each ""Purchase Order"" must be associated with at least one ""Vendor creates invoice"" event.";"	Activity: [""Vendor creates invoice""], EntityType: [""PO""], Actor: []
+		"
+"At least one ""Record Invoice Receipt"" event must occur for each ""Purchase Order"" entity.";"	Activity: [""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+"A ""Purchase Order"" must have a ""Record Service Entry Sheet"" performed at least once.";"	Activity: [""Record Service Entry Sheet""], EntityType: [""PO""], Actor: []
+		"
+"A ""Purchase Order"" must have a ""Change Quantity"" event performed at least once.";"	Activity: [""Change Quantity""], EntityType: [""PO""], Actor: []
+		"
+"At least one ""Receive Order Confirmation"" event must be performed for each ""Purchase Order Item"".";"	Activity: [""Receive Order Confirmation""], EntityType: [""POI""], Actor: []
+		"
+"A ""Purchase Order"" must have at least one associated ""Remove Payment Block"" event.";"	Activity: [""Remove Payment Block""], EntityType: [""PO""], Actor: []
+		"
+"A ""Create Purchase Requisition Item"" event must occur between 3 and 7 times.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"The number of times a ""Vendor creates invoice"" event takes place must be no fewer than 2 but no more than 4.";"	Activity: [""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+"At least one instance of ""Record Goods Receipt"" must occur, but no more than 3 are allowed.";"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"An event of type ""Delete Purchase Order Item"" must happen between 1 and 5 times.";"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"The action of ""Clear Invoice"" must take place at least 2 times but no more than 6 times.";"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+"The event ""Remove Payment Block"" must occur between 2 and 5 times inclusively.";"	Activity: [""Remove Payment Block""], EntityType: [], Actor: []
+		"
+Creating a new order item should occur a minimum of 2 times and a maximum of 4 times.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+At least 1 event for receiving an invoice from the vendor must happen, but no more than 3 invoices are allowed.;"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+Goods receipt must be recorded between 3 and 7 times.;"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+The deletion of order items should not occur more than 4 times.;"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"A Purchase Order Item (POI) must have at least 1 and at most 3 ""Create Purchase Requisition Item"" events.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [""POI""], Actor: []
+		"
+"For every PO, there must be at least 2 and no more than 5 ""Vendor creates invoice"" events logged.";"	Activity: [""Vendor creates invoice""], EntityType: [""PO""], Actor: []
+		"
+"A Purchase Order (PO) must always have between 1 and 4 ""Record Goods Receipt"" events.";"	Activity: [""Record Goods Receipt""], EntityType: [""PO""], Actor: []
+		"
+"No Purchase Order Item (POI) should have more than 2 ""Delete Purchase Order Item"" events logged.";"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+"Every Purchase Order Item (POI) must have exactly 1 ""Record Invoice Receipt"" event logged.";"	Activity: [""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+"At least 2 ""Record Service Entry Sheet"" events must be logged for each POI.";"	Activity: [""Record Service Entry Sheet""], EntityType: [""POI""], Actor: []
+		"
+"A Purchase Order (PO) must have no more than 1 ""Change Quantity"" event logged.";"	Activity: [""Change Quantity""], EntityType: [""PO""], Actor: []
+		"
+Every purchase order item must have at least 1 event confirming that an order item has been created.;"	Activity: [""Create Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+For every purchase order, there should be at least 2 instances where an invoice is generated by the vendor.;"	Activity: [""vendor creates invoice""], EntityType: [""PO""], Actor: []
+		"
+"A ""Create Purchase Requisition Item"" event and a ""Create Purchase Order Item"" event cannot occur together for the same object.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A vendor cannot create an invoice and record a goods receipt for the same entity.;"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+Deleting a purchase order item and clearing an invoice should not happen for the same entity.;"	Activity: [""Delete Purchase Order Item"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"A ""Record Service Entry Sheet"" event and a ""Receive Order Confirmation"" event cannot occur for the same object.";"	Activity: [""Record Service Entry Sheet"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+For the same entity, a goods receipt and an invoice receipt cannot be recorded both.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"Activities ""Create Purchase Requisition Item"" and ""Delete Purchase Order Item"" are mutually exclusive for any entity.";"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+" ""Record Goods Receipt"" and ""Record Invoice Receipt"" may not both occur for the same entity.";"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+It is prohibited for an entity to record both a service entry sheet and clear an invoice.;"	Activity: [""Record Service Entry Sheet"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"An entity cannot have both ""Vendor creates invoice"" and ""Remove Payment Block"" events.";"	Activity: [""Vendor creates invoice"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+Changing the quantity and recording the invoice receipt for the same object is not allowed.;"	Activity: [""Change Quantity"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"For every Purchase Order Item (POI), if a ""Create Purchase Requisition Item"" is performed, a ""Create Purchase Order Item"" must also occur.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+"If a Purchase Order item is created for a PO, then a ""Record Goods Receipt"" must also be performed for it.";"	Activity: [""Create Purchase Order Item"", ""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+When for a PO, an invoice is created by a vendor, it must also be recorded.;"	Activity: [""vendor creates invoice"", ""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+"For every Purchase Order (PO), if the ""Change Quantity"" event occurs, the ""Record Service Entry Sheet"" must also be performed.";"	Activity: [""Change Quantity"", ""Record Service Entry Sheet""], EntityType: [""PO""], Actor: []
+		"
+"For every POI, if a ""Create Purchase Requisition Item"" event is performed, ""Create Purchase Order Item"" must also happen.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+For every Purchase Order Item (POI), if the quantity is changed, the corresponding invoice receipt must also be recorded.;"	Activity: [""Change Quantity"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+If a Purchase Order Item (POI) is created, then an invoice receipt must be recorded.;"	Activity: [""Create Purchase Requisition Item"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+Every time a vendor issues an invoice for a purchase order item, an entry for service verification must also be made.;"	Activity: [""Vendor creates invoice""], EntityType: [""POI""], Actor: []
+		"
+If an order confirmation is received for a purchase order, an event for creating purchase order items must also occur.;"	Activity: [""Receive Order Confirmation"", ""Create Purchase Order Item""], EntityType: [""PO""], Actor: []
+		"
+For every purchase order item, if the quantity changes, the corresponding invoice receipt must be recorded.;"	Activity: [""Change Quantity"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+At least 3 activities from the set {Create Purchase Requisition Item, Create Purchase Order Item, Vendor creates invoice, Record Goods Receipt} must be performed for each Purchase Order Item (POI).;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+Every Purchase Order must have at least 2 activities from the set {Record Invoice Receipt, Clear Invoice}.;"	Activity: [""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [""PO""], Actor: []
+		"
+For each Purchase Order, at least one activity from the set {Record Goods Receipt, Vendor creates invoice} must be performed.;"	Activity: [""Record Goods Receipt"", ""Vendor creates invoice""], EntityType: [""PO""], Actor: []
+		"
+A Purchase Order Item must have performed at least 2 actions from {Change Quantity, Remove Payment Block}.;"	Activity: [""Change Quantity"", ""Remove Payment Block""], EntityType: [""POI""], Actor: []
+		"
+"Every Purchase Order Item must have been linked to at least 1 of ""Create Purchase Order Item"" or ""Record Invoice Receipt"".";"	Activity: [""Create Purchase Order Item"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+For each Purchase Order Item, at least 2 activities from the set {Vendor creates invoice, Record Service Entry Sheet} must be performed.;"	Activity: [""Vendor creates invoice"", ""Record Service Entry Sheet""], EntityType: [""POI""], Actor: []
+		"
+For each Purchase Order, at least one action from the set {Record Goods Receipt, Remove Payment Block} must be completed.;"	Activity: [""Record Goods Receipt"", ""Remove Payment Block""], EntityType: [""PO""], Actor: []
+		"
+For every Purchase Order, at least 4 actions from Create Purchase Order Item, Record Goods Receipt, Vendor creates invoice, Record Invoice Receipt must be performed.;"	Activity: [""Create Purchase Order Item"", ""Record Goods Receipt"", ""Vendor creates invoice"", ""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+The maximum processing time for a Purchase Order is less than 48 hours.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+The average duration between the first and last event for Purchase Order Items is more than 3 days.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+A Purchase Order entity is processed for at least 12 hours on average.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+The processing time for PO Items should never exceed 2 hours.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+The average processing duration for a PO is greater than 24 hours.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+A PO Item should be processed within a maximum of 72 hours.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+A Purchase Order should be handled for no more than 2 days.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+The time it takes to process PO Items is less than 3 days on average.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+PO Items must not exist for more than 5 days.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+A PO can never exist for more than 7 days.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+A purchase requisition item must be created before a purchase order item can be made.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+The invoice receipt must be recorded before clearing the invoice.;"	Activity: [""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+A purchase order item must be created before it can be deleted.;"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+A service entry sheet must be recorded before removing any payment block.;"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+An order confirmation must be received before a change in quantity can be made.;"	Activity: [""Receive Order Confirmation"", ""Change Quantity""], EntityType: [], Actor: []
+		"
+A purchase requisition item must be created before the vendor can create an invoice.;"	Activity: [""Create Purchase Requisition Item"", ""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+Goods receipt must be recorded before the invoice can be cleared.;"	Activity: [""Record Goods Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+A purchase requisition item must be created before a purchase order item can be created.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A vendor invoice must be created before recording the service entry sheet.;"	Activity: [""Vendor creates invoice"", ""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+"""Create Purchase Order Item"" must happen before ""Delete Purchase Order Item"" can take place.";"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"""Receive Order Confirmation"" must occur before ""Change Quantity"" can be executed.";"	Activity: [""Receive Order Confirmation"", ""Change Quantity""], EntityType: [], Actor: []
+		"
+After the creation of a purchase requisition item, a purchase order item must be created.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+Whenever a vendor creates an invoice, a goods receipt must be recorded afterward.;"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+If a purchase order item is deleted, an invoice should be cleared afterward.;"	Activity: [""Delete Purchase Order Item"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+The record of an invoice receipt must happen if  goods receipt has been recorded before.;"	Activity: [""Record Invoice Receipt"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+If a service entry sheet is recorded, the payment block should be removed afterward.;"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+After creating a purchase requisition item, the order confirmation must be received.;"	Activity: [""Create Purchase Requisition Item"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+After a purchase order item is created, the purchase requisition item should be reviewed.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"If ""Vendor creates invoice,"" the ""Record Goods Receipt"" must follow.";"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"After ""Record Invoice Receipt,"" the ""Clear Invoice"" must occur.";"	Activity: [""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"When a ""Delete Purchase Order Item"" occurs, it must be followed by a ""Record Service Entry Sheet.""";"	Activity: [""Delete Purchase Order Item"", ""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+"Once ""Record Goods Receipt"" is performed, the ""Record Invoice Receipt"" must follow.";"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+After creating a purchase requisition item, a purchase order item must be created within 5 days.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+If an invoice is created by the vendor, the goods receipt must be recorded within 7 days.;"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+When the purchase order item is created, the invoice receipt must be recorded within 10 days.;"	Activity: [""Create Purchase Order Item"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+If a service entry sheet is recorded, the payment block should be cleared within 30 days.;"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+Once the purchase order item is deleted, the invoice must be cleared within 14 days.;"	Activity: [""Delete Purchase Order Item"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+After creating a purchase requisition item, an order confirmation must be received within 7 days.;"	Activity: [""Create Purchase Requisition Item"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+If the goods receipt is recorded, the invoice receipt must follow within 15 days.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"After a ""Vendor creates invoice"" event, a ""Record Goods Receipt"" event must be recorded within 14 days.";"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"If the ""Record Invoice Receipt"" event occurs, the ""Record Goods Receipt"" event must be recorded within 10 days.";"	Activity: [""Record Invoice Receipt"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"After a ""Delete Purchase Order Item"" event, the ""Clear Invoice"" event must occur within 5 days.";"	Activity: [""Delete Purchase Order Item"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"If ""Create Purchase Requisition Item"" occurs, ""Create Purchase Order Item"" must be created within 5 days.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+If a purchase requisition item is created, it must lead to either the creation of a purchase order item or the deletion of the item.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+After a vendor submits an invoice, it must either be cleared or have a payment block removed.;"	Activity: [""Vendor creates invoice"", ""Clear Invoice"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+If a requisition item is created, then it must be followed by either a purchase order item creation or an invoice submission.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+If an invoice is submitted by the vendor, then a payment block removal or invoice clearing must happen after.;"	Activity: [""Remove Payment Block"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+Following the creation of a purchase order item, the vendor must create an invoice or goods receipt must be recorded.;"	Activity: [""Create Purchase Order Item"", ""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+When a vendor creates an invoice, the invoice must be cleared or an invoice receipt must be recorded.;"	Activity: [""Vendor creates invoice"", ""Clear Invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+If an invoice receipt is recorded, then a service entry sheet must be created or the payment block must be removed.;"	Activity: [""Record Invoice Receipt"", ""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+If a purchase order item is created, then the quantity must be changed or the order confirmation must be received.;"	Activity: [""Create Purchase Order Item"", ""Change Quantity"", ""Receive Order Confirmation""], EntityType: [""POI""], Actor: []
+		"
+"If a ""Create Purchase Requisition Item"" event occurs, then a ""Create Purchase Order Item"" or ""Delete Purchase Order Item"" must follow.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"After recording a ""Goods Receipt"", a ""Record Invoice Receipt"" or ""Clear Invoice"" must follow.";"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"Once a ""Purchase Order Item"" is created, either a ""Change Quantity"" or ""Receive Order Confirmation"" must be made.";"	Activity: [""Create Purchase Requisition Item"", ""Change Quantity"", ""Receive Order Confirmation""], EntityType: [""POI""], Actor: []
+		"
+"A ""Create Purchase Order Item"" activity must always be preceded by a ""Create Purchase Requisition Item"" for the same entity.";"	Activity: [""Create Purchase Order Item"", ""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"Every time a ""Record Invoice Receipt"" is processed, it must be immediately preceded by a ""Record Goods Receipt"" for the same object.";"	Activity: [""Record Invoice Receipt"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"Before a ""Clear Invoice"" event can happen, the ""Record Invoice Receipt"" event must have been completed immediately before.";"	Activity: [""Clear Invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"Whenever a ""Change Quantity"" event is logged, it must be immediately preceded by a ""Record Goods Receipt"" activity for the same object.";"	Activity: [""Change Quantity"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"A ""Delete Purchase Order Item"" event must not occur unless a corresponding ""Create Purchase Order Item"" event has occurred directly before.";"	Activity: [""Delete Purchase Order Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A purchase requisition item must be created directly before the corresponding purchase order item can be created.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+The creation of a purchase order item must always occur directly before any related goods receipt activity.;"	Activity: [""Create Purchase Order Item"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+Before an item can be deleted from the purchase order, it must have been created immediately before.;"	Activity: [""Delete Purchase Order Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A purchase order item must always be created immediately before a vendor invoice can be generated.;"	Activity: [""Create Purchase Order Item"", ""Vendor creates invoice""], EntityType: [""POI""], Actor: []
+		"
+"If a ""Create Purchase Requisition Item"" event occurs, a ""Create Purchase Order Item"" event must not have happened before it for the same object.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+An invoice receipt cannot be recorded before the goods receipt is recorded for the same object.;"	Activity: [""Record Invoice Receipt"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"You cannot delete a ""Purchase Order Item"" before the item is actually created.";"	Activity: [""Delete Purchase Order Item"", ""Create Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+"A ""Clear Invoice"" event cannot occur before the invoice receipt is recorded for the same entity.";"	Activity: [""Clear Invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"A ""Change Quantity"" event must not happen before the goods receipt is recorded.";"	Activity: [""Change Quantity"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"The ""Receive Order Confirmation"" event cannot happen before the purchase requisition item is created.";"	Activity: [""Receive Order Confirmation"", ""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"A ""Vendor creates invoice"" event cannot occur before the ""Create Purchase Order Item"" event for the same entity.";"	Activity: [""Vendor creates invoice"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+An invoice cannot be cleared before the invoice receipt is recorded.;"	Activity: [""Clear Invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+The quantity of a purchase order item cannot be changed before the goods receipt is recorded.;"	Activity: [""Change Quantity"", ""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+The order confirmation cannot be received before the purchase requisition item is created for the same entity.;"	Activity: [""Receive Order Confirmation"", ""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+A vendor’s invoice cannot be created within 48 hours before a purchase order item is deleted.;"	Activity: [""Vendor creates invoice"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+Goods receipt cannot be recorded within 3 days before the vendor creates an invoice.;"	Activity: [""Record Goods Receipt"", ""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+An invoice receipt cannot be recorded within 5 days before the goods receipt is recorded.;"	Activity: [""Record Invoice Receipt"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+No service entry sheet can be recorded within 7 days after a purchase order item is deleted.;"	Activity: [""Record Service Entry Sheet"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+A payment block should not be removed within 48 hours before the invoice is cleared.;"	Activity: [""Remove Payment Block"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+The quantity change must not happen within 24 hours before a purchase requisition item is created.;"	Activity: [""Change Quantity"", ""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+The service entry sheet should not be created within 2 days before a purchase order item is deleted.;"	Activity: [""Record Service Entry Sheet"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"""Create Purchase Requisition Item"" cannot occur within 24 hours before a ""Create Purchase Order Item"".";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"""Vendor creates invoice"" must not happen within 48 hours before a ""Delete Purchase Order Item"".";"	Activity: [""Vendor creates invoice"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"The ""Record Goods Receipt"" activity cannot take place within 3 days before the ""Vendor creates invoice"" activity.";"	Activity: [""Record Goods Receipt"", ""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+"""Record Invoice Receipt"" should not occur within 5 days before the ""Record Goods Receipt"" activity.";"	Activity: [""Record Invoice Receipt"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"The time between the creation of a ""Purchase Requisition Item"" and ""Purchase Order Item"" must not exceed 5 days for the same entity.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"There must be at least 1 day between ""Record Goods Receipt"" and ""Record Invoice Receipt"" for every entity.";"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"The execution of ""Record Service Entry Sheet"" must be separated by at least 2 days from ""Remove Payment Block"".";"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+"The time period between ""Record Goods Receipt"" and ""Receive Order Confirmation"" must be exactly 1 day.";"	Activity: [""Record Goods Receipt"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+The gap between the creation of a purchase requisition item and the creation of a purchase order item must not exceed 5 days for any entity.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+For every entity, the time between recording the receipt of goods and recording the invoice receipt must be less than 1 day.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+The time between recording goods receipt and receiving an order confirmation must be exactly 1 day for every entity.;"	Activity: [""Record Goods Receipt"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"The execution of the ""Clear Invoice"" activity and the ""Record Invoice Receipt"" must be at least 1 day apart for each entity.";"	Activity: [""Clear Invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+Between creating a purchase requisition item and receiving an order confirmation, there must be at least 2 days.;"	Activity: [""Create Purchase Requisition Item"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+When a purchase requisition item is created, it must be done before March 15th, 2024.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+Any invoice receipt must be recorded before July 1st, 2023, for proper processing.;"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+If a purchase order item is deleted, it must be done before June 30th, 2024.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+When a service entry sheet is recorded, it must be completed before March 1st, 2023.;"	Activity: [""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+Order confirmations must be received before June 1st, 2023.;"	Activity: [], EntityType: [], Actor: []
+		"
+Every Create Purchase Requisition Item activity must be completed before March 15th, 2024.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+Vendor creates invoice activities must be completed before April 10th, 2023.;"	Activity: [""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+Each Record Goods Receipt activity must occur before February 28th, 2025.;"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+Clear Invoice actions must be completed before December 31st, 2022.;"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+If a Remove Payment Block action is performed, it must be done before October 15th, 2022.;"	Activity: [""Remove Payment Block""], EntityType: [], Actor: []
+		"
+Any Change Quantity event must be recorded before April 5th, 2024.;"	Activity: [""Change Quantity""], EntityType: [], Actor: []
+		"
+"A ""Create Purchase Requisition Item"" event is directly followed by a ""Create Purchase Order Item"" event no more than 2 times.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"A ""Change Quantity"" event occurs immediately after a ""Receive Order Confirmation"" at most 2 times.";"	Activity: [""Change Quantity"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+The action of a vendor creating an invoice is directly followed by recording an invoice receipt at least 5 times.;"	Activity: [""Vendor creates invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"""Record Goods Receipt"" is immediately followed by ""Clear Invoice"" no more than once.";"	Activity: [""Record Goods Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"There are at least 2 instances where ""Create Purchase Order Item"" is directly followed by ""Record Service Entry Sheet"".";"	Activity: [""Create Purchase Order Item"", ""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+"""Delete Purchase Order Item"" is directly followed by ""Record Goods Receipt"" at least 3 times.";"	Activity: [""Delete Purchase Order Item"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"""Record Service Entry Sheet"" happens directly after ""Clear Invoice"" no more than 1 time.";"	Activity: [""Record Service Entry Sheet"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+The goods receipt event should be immediately followed by clearing the invoice no more than twice.;"	Activity: [""Record Goods Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+There should be at least 2 instances where the creation of a purchase order item is directly followed by the recording of a service entry sheet.;"	Activity: [""Create Purchase Order Item"", ""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+A vendor's invoice creation should be followed by a goods receipt no more than 2 times.;"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+There must be at least 2 instances where the creation of a purchase requisition item is followed by the creation of a purchase order item.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A service entry sheet creation should be followed by a record of invoice receipt at least once.;"	Activity: [""Record Service Entry Sheet"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+An order confirmation must follow a purchase requisition item creation event at least once.;"	Activity: [""Receive Order Confirmation"", ""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+A vendor invoice must be followed by a goods receipt recording at least 2 times.;"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"There must be at least 2 instances where a ""Create Purchase Requisition Item"" event is eventually followed by ""Create Purchase Order Item"".";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"The activity ""Vendor creates invoice"" must eventually be followed by ""Record Goods Receipt"" no more than 3 times.";"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"""Record Invoice Receipt"" must be followed by ""Record Service Entry Sheet"" no more than 4 times.";"	Activity: [""Record Invoice Receipt"", ""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+"No more than 3 instances of ""Create Purchase Order Item"" should be followed by ""Record Invoice Receipt"".";"	Activity: [""Create Purchase Order Item"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"A ""Vendor creates invoice"" event should not be followed by ""Record Invoice Receipt"" more than 5 times.";"	Activity: [""Vendor creates invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"The sequence of ""Create Purchase Requisition Item"", ""Create Purchase Order Item"", and ""Vendor creates invoice"" must occur in that order for each ""POI"" entity.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Vendor creates invoice""], EntityType: [""POI""], Actor: []
+		"
+"For every ""PO"" entity, ""Record Goods Receipt"", ""Record Invoice Receipt"", and ""Clear Invoice"" must happen sequentially.";"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [""PO""], Actor: []
+		"
+"The process of ""Delete Purchase Order Item"" followed by ""Clear Invoice"" must occur for each ""POI"" entity.";"	Activity: [""Delete Purchase Order Item"", ""Clear Invoice""], EntityType: [""POI""], Actor: []
+		"
+"Each ""PO"" entity must have ""Receive Order Confirmation"" followed by ""Record Goods Receipt"" in sequence.";"	Activity: [""Receive Order Confirmation"", ""Record Goods Receipt""], EntityType: [""PO""], Actor: []
+		"
+"A ""PO"" entity must have ""Create Purchase Order Item"", ""Record Invoice Receipt"", and ""Clear Invoice"" in that exact order.";"	Activity: [""Create Purchase Order Item"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [""PO""], Actor: []
+		"
+"For each ""POI"" entity, ""Record Goods Receipt"" and ""Record Invoice Receipt"" must occur sequentially.";"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+"The ""Change Quantity"" and ""Vendor creates invoice"" activities must be carried out in sequence for each ""POI"" entity.";"	Activity: [""Change Quantity"", ""Vendor creates invoice""], EntityType: [""POI""], Actor: []
+		"
+"Each ""PO"" entity must first have a purchase order item created, directly followed by recording the receipt of goods, and then the invoice receipt must be recorded directly after.";"	Activity: [""Create Purchase Order Item"", ""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+"The activities ""Create Purchase Order Item"", ""Vendor creates invoice"", and ""Record Goods Receipt"" should not be executed in sequence for any ""PO"".";"	Activity: [""Create Purchase Order Item"", ""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [""PO""], Actor: []
+		"
+"The sequence of ""Create Purchase Requisition Item"", ""Record Service Entry Sheet"", and ""Remove Payment Block"" must not be performed in that order for any ""POI"".";"	Activity: [""Create Purchase Requisition Item"", ""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [""POI""], Actor: []
+		"
+"It is not allowed for any ""PO"" to first ""Create Purchase Order Item"", then ""Delete Purchase Order Item"", and then ""Clear Invoice"" in sequence.";"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item"", ""Clear Invoice""], EntityType: [""PO""], Actor: []
+		"
+"For any ""POI"", the sequence of ""Create Purchase Requisition Item"", ""Record Invoice Receipt"", and ""Record Goods Receipt"" should not be followed in that specific order.";"	Activity: [""Create Purchase Requisition Item"", ""Record Invoice Receipt"", ""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+"The actions ""Create Purchase Order Item"" followed by ""Receive Order Confirmation"" should never occur in sequence for any ""PO"".";"	Activity: [""Create Purchase Order Item"", ""Receive Order Confirmation""], EntityType: [""PO""], Actor: []
+		"
+"A sequence of ""Change Quantity"", ""Record Goods Receipt"", and ""Vendor creates invoice"" should not be performed in order for any ""POI"".";"	Activity: [""Change Quantity"", ""Record Goods Receipt"", ""Vendor creates invoice""], EntityType: [""POI""], Actor: []
+		"
+A purchase order item should never have the activities of creating a purchase order item, then receiving an order confirmation, and then deleting the purchase order item in sequence.;"	Activity: [""Create Purchase Order Item"", ""Receive Order Confirmation"", ""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+It is not allowed for the creation of a purchase order item to be followed by the recording of an invoice receipt and then the clearing of the invoice for any purchase order.;"	Activity: [""Create Purchase Order Item"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [""POI""], Actor: []
+		"
+For any purchase order, the activities of recording a goods receipt, then creating an invoice, followed by recording an invoice receipt, must not occur in sequence.;"	Activity: [""Record Goods Receipt"", ""Create Invoice"", ""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+For any purchase order, it is not permitted to first create a purchase order item, then record the service entry sheet, followed by removing the payment block.;"	Activity: [""Create Purchase Order Item"", ""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [""PO""], Actor: []
+		"
+"A ""Create Purchase Requisition Item"" must be created within 5 days before a ""Create Purchase Order Item"" is generated.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"A ""Vendor creates invoice"" must occur within 14 days of a ""Create Purchase Order Item"" being created.";"	Activity: [""Vendor creates invoice"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"A ""Create Purchase Order Item"" must be approved within 10 days before a ""Delete Purchase Order Item"" event can occur.";"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"A ""Create Purchase Requisition Item"" must be logged within 7 days before a ""Create Purchase Order Item"" can happen.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"A ""Record Invoice Receipt"" must happen within 7 days of a ""Vendor creates invoice"" event.";"	Activity: [""Record Invoice Receipt"", ""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+The vendor must issue an invoice within 14 days of creating a purchase order item.;"	Activity: [""Vendor creates invoice"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A purchase order item must be approved within 10 days of its creation before it can be deleted.;"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+"A ""Create Purchase Requisition Item"" must occur within 5 days before a ""Create Purchase Order Item"" can be created.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A purchase requisition item cannot be created until a vendor creates an invoice or a purchase order item is created.;"	Activity: [""Create Purchase Requisition Item"", ""Vendor creates invoice"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+Before a purchase order item can be deleted, a goods receipt must be recorded or an invoice receipt must be received.;"	Activity: [""Delete Purchase Order Item"", ""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+A vendor invoice cannot be processed before a goods receipt or invoice receipt has been recorded.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+The purchase order item cannot be deleted unless the goods receipt or invoice receipt has already been recorded.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+"Before ""Delete Purchase Order Item"" can be executed, either a ""Record Goods Receipt"" or ""Receive Order Confirmation"" must be recorded.";"	Activity: [""Delete Purchase Order Item"", ""Record Goods Receipt"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"A ""Create Purchase Requisition Item"" cannot be created until a ""Vendor creates invoice"" or a ""Create Purchase Order Item"" event has been recorded.";"	Activity: [""Create Purchase Requisition Item"", ""Vendor creates invoice"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"A ""Vendor creates invoice"" event cannot be processed before a ""Record Goods Receipt"" or ""Record Invoice Receipt"" event has been recorded.";"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"Before a ""Delete Purchase Order Item"" event can occur, a ""Record Goods Receipt"" or ""Receive Order Confirmation"" must be completed.";"	Activity: [""Delete Purchase Order Item"", ""Record Goods Receipt"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"Before a ""Record Invoice Receipt"" event can be executed, either a ""Record Goods Receipt"" or ""Receive Order Confirmation"" must have been logged.";"	Activity: [""Record Invoice Receipt"", ""Record Goods Receipt"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+Whenever a purchase requisition item is created, a purchase order item must be created immediately after.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+After the invoice is recorded, the payment block must be removed immediately after.;"	Activity: [""Record Invoice Receipt"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+The creation of a service entry sheet must always be directly followed by the removal of the payment block.;"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+Directly after changing the quantity of an order item, an order confirmation must be received.;"	Activity: [""Change Quantity"", ""Receive Order Confirmation""], EntityType: [""POI""], Actor: []
+		"
+After the goods receipt is recorded, the invoice receipt must happen immediately after.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+After a purchase requisition item is created, a purchase order item should follow immediately.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"After a ""Create Purchase Requisition Item"" event, a ""Create Purchase Order Item"" event must occur immediately after.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"When a ""Vendor creates invoice"" event occurs, the ""Record Goods Receipt"" must follow immediately.";"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"After the ""Record Invoice Receipt"" event, the ""Remove Payment Block"" event should take place immediately.";"	Activity: [""Record Invoice Receipt"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+"After a ""Record Service Entry Sheet"" event, the ""Remove Payment Block"" event should immediately follow.";"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+"Following a ""Change Quantity"" event, the ""Receive Order Confirmation"" event must occur immediately after.";"	Activity: [""Change Quantity"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"After a ""Create Purchase Requisition Item"" is placed, no ""Create Purchase Order Item"" can occur afterward.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"Once a ""Vendor creates invoice"" is recorded, ""Record Invoice Receipt"" cannot happen afterward for the same entity.";"	Activity: [""Vendor creates invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"If a ""Delete Purchase Order Item"" occurs, no ""Create Purchase Order Item"" can follow for the same entity.";"	Activity: [""Delete Purchase Order Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"Once a ""Receive Order Confirmation"" has been performed, the ""Create Purchase Requisition Item"" cannot occur for the same entity afterward.";"	Activity: [""Receive Order Confirmation"", ""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"If a ""Record Service Entry Sheet"" occurs, ""Record Goods Receipt"" should not be performed afterward for the same item.";"	Activity: [""Record Service Entry Sheet"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"After a ""Vendor creates invoice,"" it is not allowed to ""Delete Purchase Order Item"" for the same object item afterward.";"	Activity: [""Vendor creates invoice"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+After creating a purchase requisition item, a corresponding purchase order item cannot be created afterward for the same entity.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+Once an invoice has been created by a vendor, no further invoice receipt record can be made afterward.;"	Activity: [""vendor creates invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+Once the invoice has been cleared, no further receipt of invoice should be recorded for the same entity.;"	Activity: [""Clear Invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+If the quantity of an order is changed, no payment block should be removed afterward.;"	Activity: [""Change Quantity"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+After receiving an order confirmation, no purchase requisition item can be created afterward for the same entity.;"	Activity: [""Receive Order Confirmation"", ""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"After a ""Create Purchase Requisition Item"" event occurs, no ""Create Purchase Order Item"" event can happen within 48 hours for the same entity.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"If a ""Vendor creates invoice"" event occurs, no ""Record Goods Receipt"" event can take place within 72 hours afterward.";"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"If a ""Delete Purchase Order Item"" event is performed, no ""Clear Invoice"" event can occur for the same entity within 48 hours.";"	Activity: [""Delete Purchase Order Item"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"After a ""Record Service Entry Sheet"" event occurs, a ""Remove Payment Block"" event cannot be performed within 72 hours.";"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+"If a ""Change Quantity"" event happens, no ""Receive Order Confirmation"" event can take place within 24 hours afterward for the same entity.";"	Activity: [""Change Quantity"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"If a ""Record Goods Receipt"" event happens, no ""Delete Purchase Order Item"" event can occur within 48 hours.";"	Activity: [""Record Goods Receipt"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"After a ""Record Invoice Receipt"" event, no ""Change Quantity"" event can be performed within 30 days.";"	Activity: [""Record Invoice Receipt"", ""Change Quantity""], EntityType: [], Actor: []
+		"
+If a purchase requisition item is created, a corresponding purchase order item cannot be created for the same entity within 48 hours.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+After an invoice is created by a vendor, no goods receipt can be recorded for the same entity within 72 hours.;"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+Once an invoice receipt has been recorded, no goods receipt can happen within 24 hours for the same entity.;"	Activity: [""Record Invoice Receipt"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+When the quantity of an item is changed, the order confirmation cannot be received for the same entity within 24 hours.;"	Activity: [""Change Quantity"", ""Receive Order Confirmation""], EntityType: [""POI""], Actor: []
+		"
+"A ""Create Purchase Requisition Item"" event must not happen later than 7 days after January 1st, 2023.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+A purchase order item creation must not take place more than 3 days before May 1st, 2022.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"The ""Vendor creates invoice"" activity cannot occur more than 15 days after March 10th, 2023.";"	Activity: [""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+"A ""Record Goods Receipt"" event must not occur more than 5 days after March 1st, 2022.";"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"A ""Record Invoice Receipt"" must take place no later than 10 days before June 15th, 2023.";"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"A ""Delete Purchase Order Item"" action cannot occur more than 7 days after January 15th, 2023.";"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"A ""Remove Payment Block"" event cannot happen more than 3 days after March 1st, 2022.";"	Activity: [""Remove Payment Block""], EntityType: [], Actor: []
+		"
+"A ""Change Quantity"" action must not occur before 5 days from July 1st, 2022.";"	Activity: [""Change Quantity""], EntityType: [], Actor: []
+		"
+"A ""Create Purchase Order Item"" event must not be executed later than 2 days after February 1st, 2022.";"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+The creation of a Purchase Requisition Item is prohibited for any Purchase Order.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [""PO""], Actor: []
+		"
+A Purchase Order Item must never be deleted.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+Recording an invoice receipt should not be performed for any Purchase Order Item.;"	Activity: [""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+Changing the quantity of a Purchase Order Item is prohibited for a Purchase Order.;"	Activity: [""Change Quantity""], EntityType: [""POI""], Actor: []
+		"
+A Purchase Requisition Item should never be involved in clearing an invoice.;"	Activity: [""Create Purchase Requisition Item"", ""Clear Invoice""], EntityType: [""POI""], Actor: []
+		"
+Record Goods Receipt events must not be performed for a Purchase Order Item.;"	Activity: [""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+A Purchase Order Item cannot be involved in removing a payment block.;"	Activity: [""Remove Payment Block""], EntityType: [""POI""], Actor: []
+		"
+"No ""Receive Order Confirmation"" event is allowed for a Purchase Order.";"	Activity: [""Receive Order Confirmation""], EntityType: [""PO""], Actor: []
+		"
+Creating a purchase requisition item is prohibited.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+Recording an invoice receipt should never occur.;"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+A purchase order item must not be deleted.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+The vendor must not create an invoice under any circumstances.;"	Activity: [""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+Removing a payment block is strictly prohibited.;"	Activity: [""Remove Payment Block""], EntityType: [], Actor: []
+		"
+Recording a service entry sheet must never happen.;"	Activity: [""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+Receiving an order confirmation is not allowed.;"	Activity: [""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+No goods receipt should be recorded under any condition.;"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+At least one purchase requisition item must be created.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+At least one vendor invoice creation must be logged.;"	Activity: [], EntityType: [], Actor: []
+		"
+A record for goods receipt must exist in the event log.;"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+Invoice receipts must be recorded at least once in the system.;"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+It is mandatory to delete at least one purchase order item.;"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"Batch_10 should not record ""Goods Receipt"" within 7 days after a ""Purchase Order Item"" creation occured for the same instance.";"	Activity: [""Record Goods Receipt""], EntityType: [""POI""], Actor: [""batch_10""]
+		"
+"User_407 is prohibited from deleting a ""Purchase Order Item"" within 3 days after an ""Invoice Receipt"" for the same entity took place.";"	Activity: [""Delete Purchase Order Item"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: [""user_407""]
+		"
+"Batch_06 is not allowed to remove the payment block after the ""Approve Payment"" event for the same entity within 5 days.";"	Activity: [], EntityType: [], Actor: [""batch_06""]
+		"
+"User_059 must not perform a ""Change Quantity"" event within 2 days of a ""Create Purchase Requisition Item"" event for the same object.";"	Activity: [""Change Quantity"", ""Create Purchase Requisition Item""], EntityType: [], Actor: [""user_059""]
+		"
+"User_031 must not receive an ""Order Confirmation"" within 7 days after purchase order item is deleted for the same entity.";"	Activity: [""Receive Order Confirmation"", ""Delete Purchase Order Item""], EntityType: [""POI""], Actor: [""user_031""]
+		"
+"User_006 cannot perform a ""Create Purchase Order Item"" event within 3 days before ""Vendor creates invoice"" activity for the same instance.";"	Activity: [""Create Purchase Order Item"", ""Vendor creates invoice""], EntityType: [], Actor: [""user_006""]
+		"
+"User_429 must not perform a ""Record Goods Receipt"" activity within 5 days after a Purchase Order Item Creation for the same entity.";"	Activity: [""Record Goods Receipt"", ""Create Purchase Requisition Item""], EntityType: [], Actor: [""user_429""]
+		"
+"User_007 is prohibited from performing the ""Clear Invoice"" activity within 3 days before a ""Vendor creates invoice"" event for the same object.";"	Activity: [""Clear Invoice"", ""Vendor creates invoice""], EntityType: [], Actor: [""user_007""]
+		"
+User_429 must not create a purchase requisition item after June 30th, 2019.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: [""user_429""]
+		"
+The system should prevent batch_06 from recording a goods receipt before March 1st, 2019.;"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: [""batch_06""]
+		"
+No invoice should be created by user_258 after September 15th, 2019.;"	Activity: [], EntityType: [], Actor: [""user_258""]
+		"
+User_002 must avoid deleting any purchase order item after July 10th, 2019.;"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: [""user_002""]
+		"
+Batch_10 is prohibited from clearing invoices before November 5th, 2019.;"	Activity: [""Clear Invoice""], EntityType: [], Actor: [""batch_10""]
+		"
+A certain user, identified as user_204, must not submit a service entry sheet after August 20th, 2019.;"	Activity: [], EntityType: [], Actor: [""user_204""]
+		"
+User_013 should not be allowed to modify the quantity of an order before April 1st, 2019.;"	Activity: [], EntityType: [], Actor: [""user_013""]
+		"
+Before October 10th, 2019, user_012 is not allowed to acknowledge an order confirmation.;"	Activity: [], EntityType: [], Actor: [""user_012""]
+		"
+User_060 should never create a purchase order item after December 20th, 2019.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: [""user_060""]
+		"
+A purchase requisition must be created by user_429 no earlier than February 1st, 2024.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: [""user_429""]
+		"
+Someone from batch_10 should finalize a goods receipt before September 30th, 2023.;"	Activity: [], EntityType: [], Actor: [""batch_10""]
+		"
+An invoice must be created by user_068 after April 15th, 2024.;"	Activity: [], EntityType: [], Actor: [""user_068""]
+		"
+A payment block should be removed by user_002 no later than November 10th, 2023.;"	Activity: [""Remove Payment Block""], EntityType: [], Actor: [""user_002""]
+		"
+The individual handling order confirmation (user_087) must register one on or after August 5th, 2023.;"	Activity: [""Receive Order Confirmation""], EntityType: [], Actor: [""user_087""]
+		"
+Before March 1st, 2024, user_059 must generate a purchase order item.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: [""user_059""]
+		"
+The deletion of a purchase order item is required from a batch process (batch_04) after July 20th, 2023.;"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: [""batch_04""]
+		"
+User_020 is responsible for clearing an invoice, and this must happen no later than May 15th, 2024.;"	Activity: [""Clear Invoice""], EntityType: [], Actor: [""user_020""]
+		"
+A quantity modification needs to be recorded by user_105 before December 31st, 2023.;"	Activity: [], EntityType: [], Actor: []
+		"
+The completion of a service entry sheet by user_013 is expected on or before June 30th, 2023.;"	Activity: [""Record Service Entry Sheet""], EntityType: [], Actor: [""user_013""]
+		"
+The same individual must not create a purchase requisition item and create the corresponding purchase order item.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A user is not allowed to generate an invoice and register the corresponding goods receipt.;"	Activity: [""vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+No person should delete a purchase order item when also receiving the corresponding invoice.;"	Activity: [""Delete Purchase Order Item"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+It is forbidden for the same user to record an invoice and later clear it.;"	Activity: [""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+A person handling a service entry sheet should not be the one removing a payment block for the same entity.;"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+The individual responsible for recording an invoice receipt for a given object must not also handle its payment clearance.;"	Activity: [""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+A person creating a purchase requisition item should not be allowed to create an invoice for the same instance.;"	Activity: [""Create Purchase Requisition Item"", ""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+"A user must not perform both ""Create Purchase Requisition Item"" and ""Create Purchase Order Item"" for the same entity.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"The same person is not allowed to execute both ""Vendor creates invoice"" and ""Record Goods Receipt"" for the same object.";"	Activity: [""Vendor creates invoice"", ""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"The same actor must not perform both ""Record Service Entry Sheet"" and ""Remove Payment Block"" for the same entity.";"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+"The user responsible for ""Record Invoice Receipt"" should not be the one who performs ""Clear Invoice"" for the same instance.";"	Activity: [""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+No person should be responsible for more than 5 distinct Purchase Order Items.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+An individual may not be linked to more than 3 Purchase Orders.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+A single employee should not be associated with more than 4 POIs.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+No one should be involved in handling more than 6 distinct purchase transactions.;"	Activity: [], EntityType: [], Actor: []
+		"
+Ensure that no actor is linked to more than 7 Purchase Order Items.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+No single individual should be associated with more than 2 Purchase Orders.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+An employee should not manage more than 8 distinct Purchase Order Items.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+No one should process more than 4 purchasing documents.;"	Activity: [], EntityType: [], Actor: []
+		"
+Each individual must not be linked to more than 3 Purchase Order Items at a time.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+"The sequence ""Create Purchase Requisition Item"", ""Create Purchase Order Item"", and ""Vendor creates invoice"" occurs no more than 5 times.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+The process of initiating a purchase, confirming it, and the supplier issuing an invoice must happen at least twice.;"	Activity: [""Create Purchase Requisition Item"", ""Receive Order Confirmation"", ""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+"There should be fewer than 4 occurrences of the chain ""Record Goods Receipt"" → ""Record Invoice Receipt"" → ""Clear Invoice"".";"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+The process of receiving ordered goods, matching the invoice, and clearing the payment must take place exactly 6 times.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"The sequence ""Delete Purchase Order Item"" and ""Clear Invoice"" should not appear more than 3 times.";"	Activity: [""Delete Purchase Order Item"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"The chain ""Record Service Entry Sheet"" → ""Remove Payment Block"" must appear at least 4 times in the logs.";"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+"The sequence ""Change Quantity"" → ""Receive Order Confirmation"" must happen exactly 5 times.";"	Activity: [""Change Quantity"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"The sequence ""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Record Goods Receipt"", and ""Clear Invoice"" must occur at least 3 times.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Record Goods Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+No more than 5 occurrences of creating a requisition, generating an order, recording goods received, and clearing the invoice in that order should exist.;"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item"", ""Record Goods Receipt"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+"The chain ""Vendor creates invoice"" → ""Record Invoice Receipt"" → ""Remove Payment Block"" should occur exactly 4 times.";"	Activity: [""Vendor creates invoice"", ""Record Invoice Receipt"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+The process of an invoice being issued, received, and then having payment restrictions removed must take place at least twice.;"	Activity: [""Record Invoice Receipt"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+A Purchase Order cannot have fewer than 2 items.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+No POI should be associated with more than 5 Purchase Orders.;"	Activity: [], EntityType: [""POI"", ""PO""], Actor: []
+		"
+A Purchase Order should contain at least one item.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+No Purchase Order should have more than 10 items associated with it.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+A POI cannot belong to more than 3 different Purchase Orders.;"	Activity: [], EntityType: [""POI"", ""PO""], Actor: []
+		"
+A Purchase Order should not have more than 5 associated items.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+A Purchase Order Item must always be linked to at least one Purchase Order.;"	Activity: [], EntityType: [""POI"", ""PO""], Actor: []
+		"
+A Purchase Order cannot have more than 7 different POI objects.;"	Activity: [], EntityType: [""PO"", ""POI""], Actor: []
+		"
+A POI should not be part of more than 3 different Purchase Orders.;"	Activity: [], EntityType: [""POI"", ""PO""], Actor: []
+		"
+No Purchase Order should be associated with fewer than 1 POI.;"	Activity: [], EntityType: [""PO"", ""POI""], Actor: []
+		"
+"For every ""Record Goods Receipt"", at least 1 ""Purchase Order Item"" must be involved on average.";"	Activity: [""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+"On average, no more than 3 ""Purchase Order Item"" should be linked to any ""Vendor creates invoice"".";"	Activity: [""Vendor creates invoice""], EntityType: [""POI""], Actor: []
+		"
+"On average, no more than 4 ""Purchase Order Items"" should be linked during ""Record Service Entry Sheet"".";"	Activity: [""Record Service Entry Sheet""], EntityType: [""POI""], Actor: []
+		"
+"For each ""Remove Payment Block"", at least 1 ""Purchase Order"" should be involved on average.";"	Activity: [""Remove Payment Block""], EntityType: [""PO""], Actor: []
+		"
+"When a ""Change Quantity"" event occurs, on average, no more than 2 ""Purchase Order Items"" should be affected.";"	Activity: [""Change Quantity""], EntityType: [""POI""], Actor: []
+		"
+When a new purchase order item is added, on average, at least 2 purchase orders should be involved.;"	Activity: [""Create Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+The invoice creation action should not involve more than 3 items on average.;"	Activity: [""Create Invoice""], EntityType: [""Item""], Actor: []
+		"
+When receiving an invoice, there should be an average of at least 2 purchase orders involved.;"	Activity: [""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+For each service entry sheet recording, no more than 4 purchase order items should be linked on average.;"	Activity: [""Record Service Entry Sheet""], EntityType: [""POI""], Actor: []
+		"
+Removing a payment block should always involve at least 1 purchase order on average.;"	Activity: [""Remove Payment Block""], EntityType: [""PO""], Actor: []
+		"
+"A ""Create Purchase Requisition Item"" event must involve at least 1 ""PO"" entity.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [""PO""], Actor: []
+		"
+"Every ""Record Goods Receipt"" event should be linked to at least 2 ""POI"" entities.";"	Activity: [""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+"For each ""Vendor creates invoice"" event, there must be at least 1 ""PO"" involved.";"	Activity: [""Vendor creates invoice""], EntityType: [""PO""], Actor: []
+		"
+"When a ""Record Invoice Receipt"" event occurs, at least 2 ""POI"" entities should be present.";"	Activity: [""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+"For each ""Delete Purchase Order Item"" task, there must be at least 1 ""PO"" entity involved.";"	Activity: [""Delete Purchase Order Item""], EntityType: [""PO""], Actor: []
+		"
+"Every ""Record Service Entry Sheet"" event must be linked to at least 2 ""POI"" entities.";"	Activity: [""Record Service Entry Sheet""], EntityType: [""POI""], Actor: []
+		"
+Each time a purchase order item is created, there must be at least one purchase order associated.;"	Activity: [""Create Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+Whenever a goods receipt is recorded, at least two purchase order items must be involved in the process.;"	Activity: [""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+When a vendor creates an invoice, it should be linked to at least one purchase order.;"	Activity: [""Vendor creates invoice""], EntityType: [""PO""], Actor: []
+		"
+Each time an invoice receipt is recorded, at least two purchase order items must be associated.;"	Activity: [""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+If a purchase order item is deleted, at least one purchase order should be associated with the deletion.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+The sojourn time for creating a purchase requisition item should be less than 2 hours.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+The maximum sojourn time for deleting a purchase order item should be no more than 6 hours.;"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+The sojourn time for clearing an invoice should be less than 3 hours.;"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+The average sojourn time for removing a payment block should be no more than 3 hours.;"	Activity: [""Remove Payment Block""], EntityType: [], Actor: []
+		"
+The maximum sojourn time for creating a purchase order item should be 1 hour or less.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"The maximum sojourn time for a ""Create Purchase Requisition Item"" activity should be 4 hours.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"The average sojourn time for ""Vendor creates invoice"" should be less than 1 day.";"	Activity: [""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+"The sojourn time for ""Record Goods Receipt"" should not exceed 2 hours on average.";"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"The sojourn time for ""Clear Invoice"" should be less than 30 minutes.";"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+"The sojourn time for ""Delete Purchase Order Item"" should be greater than 45 minutes on average.";"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+The average synchronization time for recording goods receipt is less than 1 day.;"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+The average synchronization time for the invoice receipt should be smaller than 1 day.;"	Activity: [], EntityType: [], Actor: []
+		"
+"The minimum synchronization time for the activity ""Create Purchase Requisition Item"" is greater than 15 minutes.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"The average synchronization time for activities related to ""Vendor creates invoice"" must be less than 12 hours.";"	Activity: [""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+"The maximum synchronization time for ""Record Goods Receipt"" is smaller than 2 hours.";"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+The maximum synchronization time for the action of clearing an invoice should not exceed 5 hours.;"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+The synchronization time for creating a purchase order item should never exceed 45 minutes.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+The synchronization time for clearing an invoice should not take more than 4 hours.;"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+The synchronization time for changing the quantity of an item should not exceed 20 minutes.;"	Activity: [""Change Quantity""], EntityType: [""Item""], Actor: []
+		"
+The average flow time for creating a purchase requisition item must be less than 15 minutes.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+The maximum flow time for clearing an invoice must not exceed 2 hours.;"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+The minimum flow time for recording invoice receipt should be at least 5 minutes.;"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+The flow time for deleting a purchase order item must be greater than 10 minutes.;"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+The average flow time for receiving an order confirmation should not exceed 1 day.;"	Activity: [""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+The minimum flow time for recording a service entry sheet must be smaller than 30 minutes.;"	Activity: [""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+The flow time for creating a purchase order item must always be greater than 2 hours.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"The flow time for ""Create Purchase Requisition Item"" must be less than 10 minutes.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"The maximum flow time for ""Clear Invoice"" should not exceed 1 hour.";"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+"The minimum flow time for ""Record Goods Receipt"" must be greater than 15 minutes.";"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"The flow time for ""Record Invoice Receipt"" must be less than 30 minutes on average.";"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"The maximum pooling time for ""Create Purchase Order Item"" events concerning purchase orders should not exceed 3 days.";"	Activity: [""Create Purchase Order Item""], EntityType: [""PO""], Actor: []
+		"
+"On average, the pooling time for ""Vendor creates invoice"" with ""POI"" entities should be longer than 5 hours.";"	Activity: [""Vendor creates invoice""], EntityType: [""POI""], Actor: []
+		"
+"The pooling time for ""Record Goods Receipt"" activities related to procurement items should not exceed 24 hours on average.";"	Activity: [""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+"The pooling time for ""Remove Payment Block"" concerning POIs should not be longer than 12 hours.";"	Activity: [""Remove Payment Block""], EntityType: [""POI""], Actor: []
+		"
+"The maximum pooling time for ""Receive Order Confirmation"" related to POIs should not exceed 36 hours.";"	Activity: [""Receive Order Confirmation""], EntityType: [""POI""], Actor: []
+		"
+"The pooling time of ""Record Service Entry Sheet"" events regarding purchase order items should average more than 8 hours.";"	Activity: [""Record Service Entry Sheet""], EntityType: [""POI""], Actor: []
+		"
+"The average pooling time of ""Delete Purchase Order Item"" for procurement orders should not exceed 7 days.";"	Activity: [""Delete Purchase Order Item""], EntityType: [""PO""], Actor: []
+		"
+"The maximum readiness time for ""Create Purchase Order Item"" in relation to Purchase Orders must not exceed 12 hours.";"	Activity: [""Create Purchase Order Item""], EntityType: [""PO""], Actor: []
+		"
+The minimum readiness time for clearing an invoice related to a purchase order must be at least 6 hours.;"	Activity: [""Clear Invoice""], EntityType: [""PO""], Actor: []
+		"
+The average readiness time for recording an invoice receipt regarding a purchase order item should be more than 2 hours.;"	Activity: [""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+The maximum readiness time for invoice creation by a vendor related to a purchase order items must be no longer than 10 hours.;"	Activity: [""Create Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+"The readiness time for ""Create Purchase Order Item"" concerning purchase orders must not exceed 4 hours.";"	Activity: [""Create Purchase Order Item""], EntityType: [""PO""], Actor: []
+		"
+The average readiness time for receiving an order confirmation related to purchase orders should be more than 2 hours.;"	Activity: [""Receive Order Confirmation""], EntityType: [""PO""], Actor: []
+		"
+The minimum readiness time of clearing an invoice w.r.t. to purchase order items must be at least 12 hours.;"	Activity: [""Clear Invoice""], EntityType: [""POI""], Actor: []
+		"
+The lagging time for receiving an order confirmation w.r.t  purchase orders must not exceed 2 days.;"	Activity: [""Receive Order Confirmation""], EntityType: [""PO""], Actor: []
+		"
+The lagging time for clearing invoices related to purchase order items should exceed 6 hours on average.;"	Activity: [""Clear Invoice""], EntityType: [""POI""], Actor: []
+		"
+The average lagging time for modifying an order quantity concerning purchase order items should be less than 4 hours.;"	Activity: [""Change Quantity""], EntityType: [""POI""], Actor: []
+		"
+The lagging time for recording an invoice receipt concerningn object type PO should be at least 1 day on average.;"	Activity: [""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+The lagging time for handling a service entry sheet concerning purchase orders must be no more than 3 hours on average.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+The lagging time for vendor invoice creation, in relation to purchase order items, should not exceed 10 hours.;"	Activity: [""Vendor creates invoice""], EntityType: [""POI""], Actor: []
+		"
+The lagging time for unblocking a payment concerning purchase orders should be at least 2 days on average.;"	Activity: [""Remove Payment Block""], EntityType: [""PO""], Actor: []
+		"
+"For each Purchase Order and its associated Purchase Order Items, the POI should be linked to the ""Create Purchase Order Item"" event of the PO.";"	Activity: [""Create Purchase Order Item""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+Any Purchase Order and its Purchase Order Items should be connected to the event of the creation of a Purchase Order Item of the PO.;"	Activity: [""Create Purchase Order Item""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+For every Purchase Order and its related Purchase Order Items, the Purchase Order Items should be linked to the event when the vendor creates the invoice for the PO.;"	Activity: [""Vendor creates invoice""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+A Purchase Order and its related Purchase Order Items must be linked to the event of invoice receipt recording of the PO.;"	Activity: [""Record Invoice Receipt""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+Any PO and all its Purchase Order Items must be associated with the event when the Purchase Order Item is deleted for the PO.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+For every Purchase Order and its related Purchase Order Items, the Purchase Order Items should be connected to the event of clearing the invoice for the PO.;"	Activity: [""Clear Invoice""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+Any Purchase Order Item and its associated Purchase Order should be linked to the event when for the PO the service entry sheet is recorded.;"	Activity: [""Record Service Entry Sheet""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+For each Purchase Order and its contained Purchase Order Items, the POI must be connected to the event when the payment block is removed for the PO.;"	Activity: [""Remove Payment Block""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+If a Purchase Requisition Item is created for a PO, and then another requisition itme is created for the same PO, the corresponding Goods Receipts should follow the same order.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+If two POIs are created for the same PO, the corresponding Invoice Receipts should be processed in the same order.;"	Activity: [""Create Purchase Order Item""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+When two POIs are deleted from a PO, the corresponding Invoice clearing actions should be done in the same order as the deletion.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+If two Purchase Order Items (POIs) are created for a Purchase Order (PO), the Service Entry Sheet should be created for them in the same order.;"	Activity: [""Create Purchase Requisition Item"", ""Record Service Entry Sheet""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+If two Purchase Order Items are created for a PO, the corresponding Vendor invoice creations should happen in the same sequence as the POI creation.;"	Activity: [""Create Purchase Order Item"", ""Vendor creates invoice""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+If two Purchase Order Items (POIs) are created for a PO, the Invoice Receipt for the items should follow the order of creation.;"	Activity: [""Create Purchase Order Item"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+If two Purchase Order Items (POIs) are created for the same PO, then the corresponding Goods Receipt should happen in the same sequence.;"	Activity: [""Create Purchase Order Item"", ""Record Goods Receipt""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+"If a ""Purchase Order Item"" is created but not followed by a ""Vendor creates invoice"" event within 7 days, a ""Record Invoice Receipt"" event must be triggered.";"	Activity: [""Create Purchase Order Item"", ""Vendor creates invoice"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+"If a ""Purchase Order"" has no ""Record Goods Receipt"" event within 30 days of being created, a ""Clear Invoice"" event should be issued.";"	Activity: [""Record Goods Receipt"", ""Clear Invoice""], EntityType: [""PO""], Actor: []
+		"
+"If for a POI, a ""Vendor creates invoice"" event is not recorded within 15 days after a ""Create Purchase Requisition Item"" event, a ""Record Service Entry Sheet"" event must be created.";"	Activity: [""Vendor creates invoice"", ""Create Purchase Requisition Item"", ""Record Service Entry Sheet""], EntityType: [""POI""], Actor: []
+		"
+"If for a PO, the ""Record Invoice Receipt"" event has not occurred within 7 days of ""Record Goods Receipt"", a ""Remove Payment Block"" event must be generated.";"	Activity: [""Record Invoice Receipt"", ""Record Goods Receipt"", ""Remove Payment Block""], EntityType: [""PO""], Actor: []
+		"
+"If a ""Purchase Order Item"" is deleted but no ""Record Invoice Receipt"" occurs within 14 days, a ""Clear Invoice"" must be issued.";"	Activity: [""Delete Purchase Order Item"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [""POI""], Actor: []
+		"
+"If a ""Purchase Order"" has not received an ""Order Confirmation"" within 48 hours after creation, a ""Remove Payment Block"" event must occur.";"	Activity: [""Remove Payment Block""], EntityType: [""PO""], Actor: []
+		"
+"If for a PO, an ""Invoice Receipt"" is not recorded within 14 days of a ""Create Purchase Order Item"" event, a ""Clear Invoice"" event should occur.";"	Activity: [""Record Invoice Receipt"", ""Create Purchase Order Item"", ""Clear Invoice""], EntityType: [""PO""], Actor: []
+		"
+"If for a POI,  the ""Change Quantity"" event does not happen within 5 days after a ""Create Purchase Order Item"" event, a ""Record Invoice Receipt"" must be triggered.";"	Activity: [""Change Quantity"", ""Create Purchase Order Item"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+For a given PO, a new purchase order item (POI) cannot be created if a goods receipt for a previously created POI has not been recorded within 10 days.;"	Activity: [""Record Goods Receipt""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+For a given PO, a new purchase order item (POI) cannot be created if a goods receipt for a previously created POI has not been recorded within 10 days.;"	Activity: [""Create Purchase Order Item"", ""Record Goods Receipt""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+For a given PO, a new purchase order item (POI) cannot be created if a vendor invoice for a previously created POI has not been generated within 15 days.;"	Activity: [""Create Purchase Order Item""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+For a given PO, a new purchase order item (POI) cannot be created if a service entry sheet for a previously created POI has not been recorded within 20 days.;"	Activity: [""Create Purchase Requisition Item"", ""Record Service Entry Sheet""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+For a given PO, a new purchase order item (POI) cannot be created if a payment block for a previously generated POI has not been removed within 7 days.;"	Activity: [""Remove Payment Block"", ""Create Purchase Requisition Item""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+For a given PO, a purchase order item (POI) cannot be created if the quantity change has not been performed for a previously created POI within 3 days.;"	Activity: [""Create Purchase Order Item""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+For a given PO, a new purchase order item (POI) cannot be created if an invoice receipt has not been recorded for a previously created POI within 5 days.;"	Activity: [""Create Purchase Order Item"", ""Record Invoice Receipt""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+"All Purchase Order Items associated with the same Purchase Order should have the ""Create Purchase Order Item"" event executed together.";"	Activity: [""Create Purchase Order Item""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+"All Purchase Order Items linked to a Purchase Order must have the ""Record Goods Receipt"" activity happen simultaneously.";"	Activity: [""Record Goods Receipt""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+"Any Purchase Order that has Purchase Order Items should have ""Create Purchase Requisition Item"" performed at the same time for all related items.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [""PO""], Actor: []
+		"
+"Purchase Order Items associated with the same Purchase Order must have the ""Delete Purchase Order Item"" event executed together.";"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+"All Purchase Order Items related to the same Purchase Order should have the ""Vendor creates invoice"" event happen simultaneously.";"	Activity: [""Vendor creates invoice""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+"All Purchase Order Items linked to a Purchase Order must undergo the ""Record Invoice Receipt"" process together.";"	Activity: [""Record Invoice Receipt""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+"Any Purchase Order Item must have the ""Clear Invoice"" event executed when the corresponding Purchase Order clears its invoice.";"	Activity: [""Clear Invoice""], EntityType: [""POI""], Actor: []
+		"
+"All Purchase Order Items must be processed for ""Record Service Entry Sheet"" at the same time for each related Purchase Order.";"	Activity: [""Record Service Entry Sheet""], EntityType: [""POI""], Actor: []
+		"
+All items associated with a purchase order must be created at the same time.;"	Activity: [], EntityType: [""POI"", ""PO""], Actor: []
+		"
+Each item in a purchase order must have its goods receipt recorded at the same time.;"	Activity: [""Record Goods Receipt""], EntityType: [""POI""], Actor: []
+		"
+When an invoice is created for a purchase order item, it should be created for all items within the same purchase order.;"	Activity: [""Create Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+"For each Purchase Order (PO), if a ""Record Goods Receipt"" event occurs, then all corresponding PO Items (POI) should also have a ""Record Invoice Receipt"" event.";"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+"If a ""Remove Payment Block"" event happens for a PO, then a ""Clear Invoice"" event must be recorded for all associated PO Items (POI).";"	Activity: [""Remove Payment Block"", ""Clear Invoice""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+"When a ""Create Purchase Order Item"" event is recorded for a PO, a corresponding ""Record Goods Receipt"" event should occur for all related POIs.";"	Activity: [""Create Purchase Order Item"", ""Record Goods Receipt""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+"If a ""Vendor creates invoice"" event occurs for a PO, then a ""Record Invoice Receipt"" event must also be executed for all PO Items.";"	Activity: [""Vendor creates invoice"", ""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+"When a ""Create Purchase Order Item"" event occurs for a given PO, all associated PO Items should reflect the ""Record Service Entry Sheet"" event.";"	Activity: [""Create Purchase Order Item"", ""Record Service Entry Sheet""], EntityType: [""PO""], Actor: []
+		"
+"If  a ""Create Purchase Requisition Item"" event occurs for a PO, a corresponding ""Create Purchase Order Item"" event must be executed for every related PO Item (POI).";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+"For each Purchase Order (PO), if a ""Record Goods Receipt"" event occurs, then all corresponding PO Items (POI) should also have a ""Record Invoice Receipt"" event within 7 days.";"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+"If a ""Remove Payment Block"" event happens for a PO, then a ""Clear Invoice"" event must be recorded for all associated PO Items (POI) within 5 days.";"	Activity: [""Remove Payment Block"", ""Clear Invoice""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+"When a ""Create Purchase Order Item"" event is recorded for a PO, a corresponding ""Record Goods Receipt"" event should occur for all related POIs within 10 days.";"	Activity: [""Create Purchase Order Item"", ""Record Goods Receipt""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+"If a ""Vendor creates invoice"" event occurs for a PO, then a ""Record Invoice Receipt"" event must also be executed for all PO Items within 14 days.";"	Activity: [""Vendor creates invoice"", ""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+"When a ""Create Purchase Order Item"" event occurs for a given PO, all associated PO Items should reflect the ""Record Service Entry Sheet"" event within 5 days.";"	Activity: [""Create Purchase Order Item"", ""Record Service Entry Sheet""], EntityType: [""PO""], Actor: []
+		"
+"If a ""Create Purchase Requisition Item"" event occurs for a PO, a corresponding ""Create Purchase Order Item"" event must be executed for every related PO Item (POI) within 3 days.";"	Activity: [""Create Purchase Requisition Item"", ""Create Purchase Order Item""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+Whenever a Purchase Order item is created for a PO and the next step is to delete a Purchase Order Item for that PO, the system should ensure that an invoice receipt is recorded before clearing the invoice.;"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+If a Purchase Order Item is created and the next event is the vendor creating an invoice, then goods receipt must occur before the invoice is cleared.;"	Activity: [""Create Purchase Order Item"", ""Vendor creates invoice"", ""Record Goods Receipt"", ""Clear Invoice""], EntityType: [""POI""], Actor: []
+		"
+If a Purchase Order is created and the next action is to record a service entry sheet, the system must ensure the payment block is removed before clearing the invoice.;"	Activity: [""Create Purchase Order Item"", ""Record Service Entry Sheet"", ""Remove Payment Block"", ""Clear Invoice""], EntityType: [""PO""], Actor: []
+		"
+"Whenever a Purchase Order Item undergoes a ""Record Invoice Receipt"" event and the next action is ""Delete Purchase Order Item"", the system should check that the service entry sheet is recorded before the payment block is removed.";"	Activity: [""Record Invoice Receipt"", ""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+If a Purchase Order Item is created and the next action is receiving the order confirmation, then the system must ensure that the purchase requisition item is created before the order is packed.;"	Activity: [""Create Purchase Order Item"", ""Receive Order Confirmation"", ""pack shipment""], EntityType: [""POI""], Actor: []
+		"
+For every Purchase Order, if an invoice receipt is recorded and the next action is to remove a payment block, then a service entry sheet must be recorded before clearing the invoice.;"	Activity: [""Record Invoice Receipt"", ""Remove Payment Block"", ""Record Service Entry Sheet"", ""Clear Invoice""], EntityType: [""PO""], Actor: []
+		"
+If a Purchase Order Item is created and the next event is creating a Purchase Order Item for that PO, then the system must ensure that goods receipt is recorded before the invoice receipt is cleared.;"	Activity: [""Create Purchase Order Item"", ""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+"If a Purchase Order undergoes a ""Vendor creates invoice"" event and the next event is to delete a Purchase Order Item, then a service entry sheet must be recorded before the invoice is cleared.";"	Activity: [""Vendor creates invoice"", ""Delete Purchase Order Item"", ""Record Service Entry Sheet"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+If a Vendor creates an invoice for a Purchase Order, the Invoice Receipt must occur within 10 days, and the Goods Receipt should follow.;"	Activity: [""Vendor creates invoice"", ""Record Invoice Receipt"", ""Record Goods Receipt""], EntityType: [""PO""], Actor: []
+		"
+After a Purchase Order is confirmed, the related goods receipt must be recorded within 5 days, and the invoice receipt must follow.;"	Activity: [""Receive Order Confirmation"", ""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+For every Purchase Order Item, when a goods receipt is recorded, the invoice receipt must be made within 10 days, followed by clearing the invoice.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [""POI""], Actor: []
+		"
+"If a Purchase Order undergoes a ""Receive Order Confirmation"" event, then the quantity must be changed within 3 days, and the invoice must be cleared after that.";"	Activity: [""Receive Order Confirmation"", ""Change Quantity"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+After a Purchase Order is confirmed, the Record Goods Receipt must be done within 5 days, and the Record Invoice Receipt should follow.;"	Activity: [""Receive Order Confirmation"", ""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+For every Purchase Order Item, when the Record Goods Receipt event is recorded, the Record Invoice Receipt must happen within 10 days, followed by Clear Invoice.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt"", ""Clear Invoice""], EntityType: [""POI""], Actor: []
+		"
+If a Purchase Order undergoes a Receive Order Confirmation event, then the Change Quantity must be recorded within 3 days, and the Clear Invoice must occur afterward.;"	Activity: [""Receive Order Confirmation"", ""Change Quantity"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+When a Purchase Order Item is created, a Record Goods Receipt must occur within 7 days, and a Record Invoice Receipt must follow.;"	Activity: [""Create Purchase Requisition Item"", ""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""POI""], Actor: []
+		"
+A Purchase Order Item may not have the quantity changed more than twice a day.;"	Activity: [""Change Quantity""], EntityType: [""POI""], Actor: []
+		"
+No more than five purchase order items can be created per week.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+A Purchase Order must not have more than 3 invoice receipts recorded in a single month.;"	Activity: [""Record Invoice Receipt""], EntityType: [""PO""], Actor: []
+		"
+For a given PO, the vendor should not create more than 10 invoices in a day.;"	Activity: [""Vendor creates invoice""], EntityType: [""PO""], Actor: []
+		"
+A Purchase Order should not have more than two goods receipts on the same day.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+"No more than five ""Delete Purchase Order Item"" actions can be performed on a single POI in a week.";"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+A PO should not have more than one order confirmation received per day.;"	Activity: [""Receive Order Confirmation""], EntityType: [""PO""], Actor: []
+		"
+A Purchase Order Item must not have more than five service entry sheets recorded in a month.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+"No ""Clear Invoice"" action should occur more than once per week for any PO.";"	Activity: [""Clear Invoice""], EntityType: [""PO""], Actor: []
+		"
+A POI should not have its quantity changed more than three times a day.;"	Activity: [""Change Quantity""], EntityType: [""POI""], Actor: []
+		"
+No purchase requisition items should be created between 8 PM and 6 AM.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+Order items cannot be created between 10 PM and 4 AM.;"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+Vendors are not allowed to submit invoices between 7 PM and 7 AM.;"	Activity: [], EntityType: [], Actor: []
+		"
+Goods receipts must not be recorded from 9 AM to 5 PM.;"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+Invoice receipts should not be logged between 11 PM and 7 AM.;"	Activity: [], EntityType: [], Actor: []
+		"
+Purchase order items must not be deleted between 6 AM and 12 PM.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+No invoices should be cleared during business hours (9 AM - 6 PM).;"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+Service entry sheets must not be recorded from midnight to 8 AM.;"	Activity: [""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+Payment blocks should not be removed after 9 PM.;"	Activity: [""Remove Payment Block""], EntityType: [], Actor: []
+		"
+Changing the quantity of an order is restricted between 3 PM and 10 PM.;"	Activity: [""Change Quantity""], EntityType: [""PO""], Actor: []
+		"
+Purchase requisition items must not be created on Mondays.;"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+No purchase order item should be deleted on Sundays.;"	Activity: [""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+Vendors are not allowed to generate invoices on Fridays.;"	Activity: [], EntityType: [], Actor: []
+		"
+Goods receipts cannot be recorded on the weekend.;"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+It is forbidden to register an invoice receipt on Tuesdays.;"	Activity: [], EntityType: [], Actor: []
+		"
+Payments should never be cleared on Wednesdays.;"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+Recording a service entry sheet is not allowed on Sundays.;"	Activity: [""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+The quantity of an order must not be modified on Thursdays.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+Receiving an order confirmation is prohibited on Saturdays.;"	Activity: [""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+Removing a payment block is strictly restricted on Mondays.;"	Activity: [""Remove Payment Block""], EntityType: [], Actor: []
+		"
+"The average count of ""Create Purchase Requisition Item"" events on Mondays must stay below 3.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"On Tuesdays, the number of ""Vendor creates invoice"" events should not exceed 2 on average.";"	Activity: [""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+"The average number of ""Record Goods Receipt"" events on Wednesdays must not surpass 5.";"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"Thursdays should see no more than 4 ""Delete Purchase Order Item"" events on average.";"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"The number of ""Clear Invoice"" events on Fridays should stay under 3 on average.";"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+"On Saturdays, the average number of ""Record Invoice Receipt"" events must not exceed 1.";"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"The average number of ""Record Service Entry Sheet"" events on Sundays should be under 2.";"	Activity: [""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+"On Mondays, no more than 6 ""Change Quantity"" events should be recorded on average.";"	Activity: [""Change Quantity""], EntityType: [], Actor: []
+		"
+"The average number of ""Receive Order Confirmation"" events on Tuesdays must remain below 3.";"	Activity: [""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"On Wednesdays, the average count of ""Create Purchase Order Item"" events must stay below 4.";"	Activity: [""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"No more than 5 ""Create Purchase Requisition Item"" events are allowed in any week.";"	Activity: [""Create Purchase Requisition Item""], EntityType: [], Actor: []
+		"
+"Ensure that between Monday and Friday, no more than 3 ""Vendor creates invoice"" events happen in any week.";"	Activity: [""Vendor creates invoice""], EntityType: [], Actor: []
+		"
+"The number of ""Record Goods Receipt"" events from Wednesday to Saturday must not exceed 4 per week.";"	Activity: [""Record Goods Receipt""], EntityType: [], Actor: []
+		"
+"In any given week, no more than 6 events of ""Record Invoice Receipt"" should occur between Monday and Wednesday.";"	Activity: [""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+"Limit the occurrence of ""Delete Purchase Order Item"" events to a maximum of 2 from Thursday to Sunday for every week.";"	Activity: [""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+"There must be no more than 5 ""Clear Invoice"" events between Monday and Thursday in any given week.";"	Activity: [""Clear Invoice""], EntityType: [], Actor: []
+		"
+"The total number of ""Record Service Entry Sheet"" events should not exceed 3 from Friday to Sunday in a week.";"	Activity: [""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+"In each week, no more than 1 ""Remove Payment Block"" event should occur during the weekend (Saturday and Sunday).";"	Activity: [""Remove Payment Block""], EntityType: [], Actor: []
+		"
+"The number of ""Change Quantity"" events should not exceed 10 in any week.";"	Activity: [""Change Quantity""], EntityType: [], Actor: []
+		"
+"Ensure that no more than 7 ""Receive Order Confirmation"" events happen in a single week.";"	Activity: [""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+No single person should handle more than 5 events involving creating or deleting purchase requisitions or orders.;"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+A single individual must not perform more than 5 actions related to creating or deleting purchase requisitions or orders.;"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+It is prohibited for one person to execute more than 5 events involving the creation or deletion of purchase requisitions or orders.;"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+No individual is allowed to carry out more than 5 events related to creating or deleting purchase requisitions or orders.;"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+One person must not perform more than 5 events involving the creation or deletion of purchase requisitions or orders.;"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+No single person should execute more than 5 events related to creating or deleting purchase requisitions or orders.;"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+It is not permitted for one person to handle more than 5 events involving the creation or deletion of purchase requisitions or orders.;"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+No single individual is allowed to perform more than 5 events related to creating or deleting purchase requisitions or orders.;"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+One person must not carry out more than 5 events involving the creation or deletion of purchase requisitions or orders.;"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+No single person should perform more than 5 events related to creating or deleting purchase requisitions or orders.;"	Activity: [""Create Purchase Requisition Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+The average time from the creation of a purchase order item (POI) for a PO until the quantity change for the related POI is less than 5 days.;"	Activity: [""Create Purchase Order Item"", ""Change Quantity""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+The average time between the creation of a purchase order item (POI) for a PO until the deletion of that POI is greater than 2 days.;"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [""POI""], Actor: []
+		"
+From recording a goods receipt for a PO to the invoice receipt for the related POI, less than 4 days should pass on average.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+The average time from receiving an order confirmation for a PO to creating a purchase order item for the related POI is less than 5 days.;"	Activity: [""Receive Order Confirmation"", ""Create Purchase Order Item""], EntityType: [""PO"", ""POI""], Actor: []
+		"
+The average time between creating a purchase order item for a PO until the vendor creating an invoice for that POI should be greater than 3 days.;"	Activity: [""Create Purchase Order Item"", ""Vendor creates invoice""], EntityType: [""POI"", ""PO""], Actor: []
+		"
+No single person should execute more than 6 events related to deleting purchase order items or clearing invoices.;"	Activity: [""Delete Purchase Order Item"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+No single person should execute more than 15 events that involve either creating or deleting purchase order items.;"	Activity: [""Create Purchase Order Item"", ""Delete Purchase Order Item""], EntityType: [], Actor: []
+		"
+More than 12 recorded events related to goods receipts or invoice receipts by the same person are prohibited.;"	Activity: [""Record Goods Receipt"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+An individual cannot perform more than 7 actions involving the creation of purchase order items or modifying order quantities.;"	Activity: [""Create Purchase Order Item"", ""Change Quantity""], EntityType: [], Actor: []
+		"
+A person must not perform more than 5 actions related to recording service entry sheets or removing payment blocks.;"	Activity: [""Record Service Entry Sheet"", ""Remove Payment Block""], EntityType: [], Actor: []
+		"
+Executing more than 7 tasks related to recording goods receipts or receiving order confirmations is not permitted for a single individual.;"	Activity: [""Record Goods Receipt"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"The average time between ""Remove Payment Block"" directly followed by ""Clear Invoice"" must be less than 2 hours.";"	Activity: [""Remove Payment Block"", ""Clear Invoice""], EntityType: [], Actor: []
+		"
+On average, the delay between releasing a purchase requisition and creating a purchase order item directly after should not exceed 1 day.;"	Activity: [""Release Purchase Requisition"", ""Create Purchase Order Item""], EntityType: [], Actor: []
+		"
+"The average time from ""Vendor creates invoice"" directly followed by ""Record Invoice Receipt"" should be under 3 hours.";"	Activity: [""Vendor creates invoice"", ""Record Invoice Receipt""], EntityType: [], Actor: []
+		"
+The time it takes between recording a goods receipt and receiving the order confirmation immediately after must be less than 6 hours.;"	Activity: [""Record Goods Receipt"", ""Receive Order Confirmation""], EntityType: [], Actor: []
+		"
+"On average, there should be at least 1 hour between ""Create Purchase Order Item"" directly followed by ""Reactivate Purchase Order Item"".";"	Activity: [""Create Purchase Order Item"", ""Reactivate Purchase Order Item""], EntityType: [], Actor: []
+		"
+The average delay from initiating a service entry sheet to recording it immediately after must not exceed 30 minutes.;"	Activity: [""Record Service Entry Sheet""], EntityType: [], Actor: []
+		"
+After blocking a purchase order item, the cancellation of a subsequent invoice directly after must happen within 2 hours on average.;"	Activity: [""Block Purchase Order Item"", ""Cancel Subsequent Invoice""], EntityType: [], Actor: []
+		"
+The time it takes to go from deleting a purchase order item to reactivating it immediately after should not exceed 8 hours.;"	Activity: [""Delete Purchase Order Item"", ""Reactivate Purchase Order Item""], EntityType: [], Actor: []
+		"
+No POI should be associated with fewer than 5 events.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+A Purchase Order may not be related to more than 20 events.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+Each POI is expected to have at least 3 associated events.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+A PO must never have fewer than 10 events linked to it.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+No purchase order item is allowed to exceed 30 correlated events.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+There must not be any POI with more than 15 related events.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+A purchase order is invalid if it has fewer than 5 correlated events.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+No PO may be linked to fewer than 4 different activities.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+A Purchase Order Item must not be associated with more than 6 unique activities.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+No POI should be involved in fewer than 3 different activities.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+Each purchase order must have at least 5 distinct types of activities linked.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+No individual POI may be connected to more than 7 different activities.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+A purchase order item must be involved in at least 2 unique activities.;"	Activity: [], EntityType: [""POI""], Actor: []
+		"
+No PO should be associated with more than 8 activities.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"
+Each purchase order should be linked to at least 3 different activities.;"	Activity: [], EntityType: [""PO""], Actor: []
+		"

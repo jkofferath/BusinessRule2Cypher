@@ -28,7 +28,7 @@ def truncate_string(input_string):
 # Split the string on "### Answer:"
 split_word = "### Answer:"
 
-#retrieve validation set
+#retrieve validation set - replace the file path
 validation_dataset = pd.read_csv("path_to_validatiopn_set.csv", delimiter=',')
 
 #define data frame that will later contain the predicted query, can be used for evaluation later
@@ -119,4 +119,4 @@ for index, row in validation_dataset.iterrows():
 	df = df._append(new_entry, ignore_index=True)
     
 #Convert the data frame into a csv file and store it. Use it for evaluation.
-df.to_csv('path_to_predictions_file.csv', sep=',', index=False)
+df.to_csv('path_to_predictions_file.csv', sep=',', index=False) #replace the file path

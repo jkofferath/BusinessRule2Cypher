@@ -13,43 +13,64 @@ def preprocess_query(query):
     query = " ".join(query.split())  # Normalize internal whitespace
     return query
 
-# Function to calculate BLEU score and update the same file
-def calculate_bleu_scores(input_file):
-    # Read the input CSV file
-    with open(input_file, 'r', newline='', encoding='utf-8') as file:
-        reader = csv.DictReader(file, delimiter=',')
-        data = list(reader)
-    
+def load_csv_as_dict(filepath, key_column):
+    """
+    Load a CSV file and return a dictionary keyed by `key_column`.
+    """
+    data = {}
+    with open(filepath, 'r', newline='', encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            data[row[key_column]] = row
+    return data
+
+def calculate_bleu_scores(ground_truth_file, predictions_file, output_file):
+    # Load ground truth and prediction files
+    ground_truth_data = load_csv_as_dict(ground_truth_file, key_column="NL input")
+    predictions_data = load_csv_as_dict(predictions_file, key_column="NL input")
+
     results = []
     total_score = 0.0
-    
-    # Iterate through each row and calculate BLEU score
-    for row in data:
-        ground_truth_query = preprocess_query(row["Ground Truth Query"])
-        predicted_query = preprocess_query(row["Predicted Query"])
+    match_count = 0
+
+    for nl_input, pred_row in predictions_data.items():
+        if nl_input not in ground_truth_data:
+            print(f"Warning: No ground truth for NL input: {nl_input}")
+            continue
         
-        # Compute BLEU score
+        gt_row = ground_truth_data[nl_input]
+        ground_truth_query = preprocess_query(gt_row["Cypher Query"])
+        predicted_query = preprocess_query(pred_row["Predicted Query"])
+
         predictions = [predicted_query]
         references = [[ground_truth_query]]
         result = sacrebleu.compute(predictions=predictions, references=references)
         score = result["score"] / 100.0  # Normalize the BLEU score
         total_score += score
-        
-        # Update row with BLEU score
-        row["BLEU Score"] = round(score, 4)
-        results.append(row)
-    
-    # Calculate overall score
-    overall_score = total_score / len(results) if results else 0.
+        match_count += 1
+
+        # Build output row
+        result_row = {
+            "NL input": nl_input,
+            "Cypher Query": ground_truth_query,
+            "Predicted Query": predicted_query,
+            "BLEU Score": round(score, 4)
+        }
+        results.append(result_row)
+
+    overall_score = total_score / match_count if match_count else 0.0
     print(f"Overall BLEU Score: {overall_score:.4f}")
-    
-    # Write updated data back to the same CSV file
-    with open(input_file, 'w', newline='', encoding='utf-8') as file:
-        fieldnames = list(results[0].keys())
-        writer = csv.DictWriter(file, fieldnames=fieldnames, delimiter=',')
+
+    # Write output CSV
+    with open(output_file, 'w', newline='', encoding='utf-8-sig') as file:
+        fieldnames = ["NL input", "Cypher Query", "Predicted Query", "BLEU Score"]
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(results)
 
-# Example usage
-input_csv = "path_to_predictions_file.csv"  # Replace with your file path
-calculate_bleu_scores(input_csv)
+# Usage: As input, we require a ground truth file which follows the same schema as the validation sets, and a predictions file. This should look like the example_predictions_file.csv file.
+ground_truth_csv = "path_to_ground_truth_file.csv"        # Replace with actual path
+predictions_csv = "path_to_predictions_file.csv"          # Replace with actual path
+output_csv = "path_to_results_file.csv"        # Output file with BLEU scores
+
+calculate_bleu_scores(ground_truth_csv, predictions_csv, output_csv)

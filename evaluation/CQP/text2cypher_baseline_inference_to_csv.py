@@ -106,4 +106,4 @@ for index, row in validation_dataset.iterrows():
 	df = df._append(new_entry, ignore_index=True)
     
 #Convert the data frame into a csv file and store it. Use it for evaluation.
-df.to_csv('path_to_predictions_file.csv', sep=',', index=False)
+df.to_csv('path_to_predictions_file.csv', sep=',', index=False) #replace the file path

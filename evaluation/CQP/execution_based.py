@@ -213,7 +213,7 @@ def compare_and_save_results(gt_file, pred_file, output_file):
     print(f"Ratio of samples which use all relevant key values: {all_key_values_used_count} / {total_count} ({all_key_values_used_rate:.2f}%)")
     print(f"\nResults saved to {output_file}")
 
-# Example usage
+# Usage: As input, we require a ground truth file which follows the same schema as the validation sets, and a predictions file. This should look like the example_predictions_file.csv file.
 if __name__ == "__main__":
     compare_and_save_results(
         "path_to_ground_truth_file.csv", # Replace with your input path
