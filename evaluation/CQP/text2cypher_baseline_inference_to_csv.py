@@ -84,8 +84,8 @@ def generate_answer(rule, key_values):
 	
 	return(output)
 	
-#retrieve validation set
-validation_dataset = pd.read_csv("CL_supported.csv", delimiter=',')
+#retrieve validation set - replace the file path
+validation_dataset = pd.read_csv("path_to_validation_set.csv", delimiter=',')
 
 #define data frame that will later contain the predicted query, can be used for evaluation later
 df = pd.DataFrame(columns=['NL input', 'Key Values', 'Predicted Query'])
@@ -106,4 +106,4 @@ for index, row in validation_dataset.iterrows():
 	df = df._append(new_entry, ignore_index=True)
     
 #Convert the data frame into a csv file and store it. Use it for evaluation.
-df.to_csv('predictions_CL_supported_hf_model.csv', sep=',', index=False)
+df.to_csv('path_to_predictions_file.csv', sep=',', index=False)
