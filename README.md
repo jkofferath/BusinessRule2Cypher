@@ -45,7 +45,7 @@ Scripts are provided to:
 2. **Calculate translation-based score**: Given a validation set and the corresponding prediction file, calculate a translation-based (BLEU) score. 
 3. **Calculate execution-based score**: Given a validation set and the corresponding prediction file, calculate an execution-based score by executing the queries. This requires a locally running Neo4j instance populated with the Event Knowledge Graph (EKG) corresponding to the respective event log.
 
-An example predictions file is included to run evaluation scripts without the need for prior inference. 
+An example predictions file is included. 
 
 ## KVE
 Scripts are provided to:
@@ -53,7 +53,7 @@ Scripts are provided to:
 1. **Extract Key Values (Inference)**: Given a validation set with NL inputs, extract the relevant key values from a predefined set of available key values uisng the few-shot prompt. As output, we obtain a .csv file with the predictions.
 2. **Evaluate Key Value Extraction**: Given a validation set and the corresponding predictions file, calculate precision, recall and F1-score.
 
-An example predictions file is included to run the evaluation script without the need for prior inference. 
+An example predictions file is included. 
 
 # Data Collection 
 
