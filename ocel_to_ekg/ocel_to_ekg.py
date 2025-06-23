@@ -3,8 +3,8 @@ import pm4py
 from neo4j import GraphDatabase
 import os
 
-#SETUP
-experiment_name = 'order-management'
+#SETUP - adjust as needed
+experiment_name = 'order-management' 
 file_path = os.path.join("ocel2", experiment_name + ".jsonocel")
 
 
@@ -46,6 +46,8 @@ lbl_meta_rel_event_df_snapshot_event  ='rel_Event-df[snapshot]->Event'
 lbl_meta_rel_event_df_event='rel:df' 
 
 meta_time = {}
+
+# Connection Details - adjust as needed
 URI  = 'bolt://localhost:7687'
 AUTH = ('neo4j', '12341234')
 
